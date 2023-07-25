@@ -47,4 +47,4 @@ Route::resource("/users", UserController::class);
 
 Route::resource("/profile", ProfileController::class);
 
-Route::resource('/Train', TrainController::class);
+Route::resource('/Trains', TrainController::class);
