@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Models\Train;
 use App\Models\TrainStops;
 use Illuminate\Http\Request;
+use Symfony\Component\Console\Input\Input;
 
 class TrainController extends Controller
 {
@@ -30,7 +31,33 @@ class TrainController extends Controller
      */
     public function store(Request $request)
     {
-        
+        $request->validate([
+            'train_name' => 'required|string',
+            'departure_station' => 'required|string',
+            'departure_time' => 'required|string',
+            'arrival_station' => 'required|string',
+            'arrival_time' => 'required|string',
+            'weekly_schedule' => 'required|string',
+            'stops' => 'required|string',
+            'is_active' => 'required|string',
+            'station' => 'required|string',
+
+            'arrival_time' => 'required|string',
+            'departure_time' => 'required|string',
+
+        ]);
+
+        $train = Train::create([
+            'train_name' => $request->input('train_name'),
+            'departure_station' => $request->input('departure_station'),
+            'departure_time' => $request->input('departure_time'),
+            'arrival_station' => $request->input('arrival_station'),
+            'arrival_time' => $request->input('arrival_time'),
+            'weekly_schedule' => $request->input('weekly_schedule'),
+            'stops' => $request->input('stops'),
+            'is_active' => $request->input('is_active'),
+
+        ])
     }
 
     /**
