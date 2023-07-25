@@ -1,5 +1,9 @@
 @extends('layouts.dash')
 
+@if (Auth::user()->role == 3)
+    
+@endif
+
 @section('content')
     
     <div class="admin-card">
