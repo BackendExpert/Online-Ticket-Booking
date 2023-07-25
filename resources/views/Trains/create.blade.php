@@ -102,6 +102,7 @@
                 <div class="col-lg-12">
                     <label for="Train Name">Train Stops</label><br>
                     <input type="text" name="stops" id="" class="form-control">
+                    <input type="hidden" name="is_active" value="1">
                 </div>
             </div>
             <br>
@@ -119,8 +120,6 @@
 
 
 
-            <label for="Train Name">is_active</label><br>
-            <input type="number" name="is_active" id="" class="form-control">
 
             <label for="Train Name">station</label><br>
             <input type="text" name="station" id="" class="form-control">
