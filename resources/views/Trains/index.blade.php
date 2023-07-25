@@ -3,7 +3,7 @@
 @section('content')
     <div class="admin-card">
         <h2>Trains</h2>
-
-        <a href="{{ url('Trains/create') }}"><button class="btn btn-success">Add Train</button></a>
+        <hr><br><br>
+        <a href="{{ url('Trains/create') }}"><button class="btn btn-success"><i class="fas fa-train"></i> Add Train</button></a>
     </div>
 @endsection
