@@ -18,11 +18,11 @@
             </div>
             <div class="row">
                 <div class="col-lg-6">
-                    <label for="Train Name">departure_station</label><br>
+                    <label for="Train Name">Departure Station</label><br>
                     <input type="text" name="departure_station" id="" class="form-control">
                 </div>
                 <div class="col-lg-6">
-                    <label for="Train Name">departure_time</label><br>
+                    <label for="Train Name">Departure Time</label><br>
                     <input type="text" name="departure_time" id="" class="form-control">
                 </div>
             </div>
