@@ -72,6 +72,12 @@
             </div>
             <div class="row">
                 <div class="col-lg-4">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Friday">
+                        <label class="form-check-label" for="Friday">
+                            Friday
+                        </label>
+                    </div><br>
                 </div>
                 <div class="col-lg-4">
                     <div class="form-check">
@@ -83,9 +89,9 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="Thursday">
-                        <label class="form-check-label" for="Thursday">
-                            Thursday
+                        <input class="form-check-input" type="checkbox" value="" id="Sunday">
+                        <label class="form-check-label" for="Sunday">
+                            Sunday
                         </label>
                     </div><br>
                 </div>
