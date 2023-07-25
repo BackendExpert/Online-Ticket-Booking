@@ -32,6 +32,7 @@
     .book-btn:hover{
         cursor: pointer;
         background: white;
+        color: black;
     }
 </style>
 
