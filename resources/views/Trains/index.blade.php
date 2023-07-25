@@ -2,7 +2,7 @@
 
 @section('content')
     <div class="admin-card">
-        All Trains
+        <h2>Trains</h2>
 
         <a href="{{ url('Trains/create') }}"><button class="btn btn-success">Add Train</button></a>
     </div>
