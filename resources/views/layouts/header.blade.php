@@ -18,5 +18,8 @@
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
     </script>
 
+    <link rel="icon" type="image/x-icon" href="https://w7.pngwing.com/pngs/99/669/png-transparent-airplane-flight-airline-ticket-ticket-text-logo-transport-thumbnail.png">
+
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
