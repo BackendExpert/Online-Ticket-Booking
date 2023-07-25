@@ -115,11 +115,11 @@
                 </div>
                 <div class="col-lg-4">
                     <label for="Train Name">Arrival At</label><br>
-                    <input type="text" name="time_arrival" id="" class="form-control">
+                    <input type="time" name="time_arrival" id="" class="form-control">
                 </div>
                 <div class="col-lg-4">
                     <label for="Train Name">Departure At</label><br>
-                    <input type="text" name="time_departure" id="" class="form-control">
+                    <input type="time" name="time_departure" id="" class="form-control">
                 </div>
             </div>
 
