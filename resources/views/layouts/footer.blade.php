@@ -30,7 +30,7 @@
                     <h2>About Us</h2>
                 </div>
                 <div class="footer-body">
-                    Online Vehicle Registration
+                    Online Ticket Booking
                 </div>
             </div>
             <div class="col-lg-4">
