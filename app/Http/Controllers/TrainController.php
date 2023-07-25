@@ -13,7 +13,7 @@ class TrainController extends Controller
     public function index()
     {
         $all_trians = Train::all();
-        return view('')
+        return view('Train.index')->with('all_trians', $all_trians);
     }
 
     /**
