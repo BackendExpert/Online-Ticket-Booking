@@ -21,7 +21,7 @@
     }
     .book-btn{
         padding: 20px 30px;
-        font-size: 25px;
+        font-size: 20px;
     }
 </style>
 
