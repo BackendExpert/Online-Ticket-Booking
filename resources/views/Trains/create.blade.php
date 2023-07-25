@@ -36,6 +36,8 @@
                     <input type="text" name="arrival_time" id="" class="form-control"><br>
                 </div>
             </div>
+
+            <label for="weekly_schedule">Weekly Schedule</label>
             <div class="row">
                 <div class="col-lg-3">
                     <div class="form-check">
