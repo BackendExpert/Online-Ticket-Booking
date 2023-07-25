@@ -41,15 +41,15 @@
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="Monday">
                         <label class="form-check-label" for="Monday">
-                          Default checkbox
+                            Monday
                         </label>
                     </div><br>
                 </div>
                 <div class="col-lg-3">
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="Tuesday">
-                        <label class="form-check-label" for="flexCheckDefault">
-                          Default checkbox
+                        <label class="form-check-label" for="Tuesday">
+                            Tuesday
                         </label>
                     </div><br>
                 </div>
