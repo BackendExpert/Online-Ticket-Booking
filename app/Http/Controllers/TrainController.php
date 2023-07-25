@@ -56,32 +56,35 @@ class TrainController extends Controller
         $train->weekly_schedule = json_encode($request->weekly_schedule);
         $train->is_active = $request->is_active;
 
-        $train->save();
+        // $train->save();
 
+        dd($train);
 
-        $train_stops = New TrainStops;
-        $train_stops->train_id = $train->id;
-        $train_stops->station = $request->station;     
-        $train_stops->time_arrival = $request->time_arrival;      
-        $train_stops->time_departure = $request->time_departure;   
+        // $train_stops = New TrainStops;
+        // $train_stops->train_id = $train->id;
+        // $train_stops->station = $request->station;     
+        // $train_stops->time_arrival = $request->time_arrival;      
+        // $train_stops->time_departure = $request->time_departure;   
 
-        $train = Train::create([
-            'train_name' => $request->input('train_name'),
-            'departure_station' => $request->input('departure_station'),
-            'departure_time' => $request->input('departure_time'),
-            'arrival_station' => $request->input('arrival_station'),
-            'arrival_time' => $request->input('arrival_time'),
-            'weekly_schedule' => $request->input(json_encode('weekly_schedule')),
-            'stops' => $request->input('stops'),
-            'is_active' => $request->input('is_active'),
-        ]);
+        // $train_stops->save();
 
-        $train_stops = TrainStops::create([
-            'train_id' => $train->id,
-            'station' => $request->input('station'),
-            'time_arrival' => $request->input('time_arrival'),
-            'time_departure' => $request->input('time_departure'),
-        ]);
+        // $train = Train::create([
+        //     'train_name' => $request->input('train_name'),
+        //     'departure_station' => $request->input('departure_station'),
+        //     'departure_time' => $request->input('departure_time'),
+        //     'arrival_station' => $request->input('arrival_station'),
+        //     'arrival_time' => $request->input('arrival_time'),
+        //     'weekly_schedule' => $request->input(json_encode('weekly_schedule')),
+        //     'stops' => $request->input('stops'),
+        //     'is_active' => $request->input('is_active'),
+        // ]);
+
+        // $train_stops = TrainStops::create([
+        //     'train_id' => $train->id,
+        //     'station' => $request->input('station'),
+        //     'time_arrival' => $request->input('time_arrival'),
+        //     'time_departure' => $request->input('time_departure'),
+        // ]);
 
         return redirect('/Trains');
 
