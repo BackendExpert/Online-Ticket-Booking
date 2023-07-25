@@ -19,6 +19,7 @@ return new class extends Migration
             $table->string('arrival_station');
             $table->string('arrival_time');
             $table->string('weekly_schedule');
+            $table->longText('stops');
             $table->timestamps();
         });
     }
