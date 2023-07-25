@@ -105,10 +105,10 @@
                     class="fas fa-tachometer-alt me-2"></i>Dashboard</a>
             @if (Auth::user()->role == 1 || Auth::user()->role == 2)
             <a href="{{url('/users')}}" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
-                class="fas fa-user-tie me-2"></i>All Users</a>            
+                class="fas fa-user-tie me-2"></i>Users</a>            
             @endif
-            <a href="{{url('/users')}}" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
-                class="fas fa-user-tie me-2"></i>All Usessssssrs</a>
+            <a href="{{url('/mybooking')}}" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
+                class="fas fa-user-tie me-2"></i>My Bookings</a>
 
 
             
