@@ -109,9 +109,6 @@
 
 
 
-            <label for="Train Name">weekly_schedule</label><br>
-            <input type="text" name="weekly_schedule" id="" class="form-control">
-
             <label for="Train Name">stops</label><br>
             <input type="text" name="stops" id="" class="form-control">
 
