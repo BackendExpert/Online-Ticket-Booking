@@ -49,7 +49,7 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="Tuesday" name="weekly_schedule[]">
+                        <input class="form-check-input" type="checkbox" value="Tuesday" id="Tuesday" name="weekly_schedule[]">
                         <label class="form-check-label" for="Tuesday">
                             Tuesday
                         </label>
@@ -57,7 +57,7 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="Wednesday" name="weekly_schedule[]">
+                        <input class="form-check-input" type="checkbox" value="Wednesday" id="Wednesday" name="weekly_schedule[]">
                         <label class="form-check-label" for="Wednesday">
                             Wednesday
                         </label>
@@ -65,7 +65,7 @@
                 </div>
                 <div class="col-lg-3">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="Thursday" name="weekly_schedule[]">
+                        <input class="form-check-input" type="checkbox" value="Thursday" id="Thursday" name="weekly_schedule[]">
                         <label class="form-check-label" for="Thursday">
                             Thursday
                         </label>
@@ -75,7 +75,7 @@
             <div class="row">
                 <div class="col-lg-4">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="Friday" name="weekly_schedule[]">
+                        <input class="form-check-input" type="checkbox" value="Friday" id="Friday" name="weekly_schedule[]">
                         <label class="form-check-label" for="Friday">
                             Friday
                         </label>
@@ -83,7 +83,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="Saturday" name="weekly_schedule[]">
+                        <input class="form-check-input" type="checkbox" value="Saturday" id="Saturday" name="weekly_schedule[]">
                         <label class="form-check-label" for="Saturday">
                             Saturday
                         </label>
@@ -91,7 +91,7 @@
                 </div>
                 <div class="col-lg-4">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="Sunday" name="weekly_schedule[]">
+                        <input class="form-check-input" type="checkbox" value="Sunday" id="Sunday" name="weekly_schedule[]">
                         <label class="form-check-label" for="Sunday">
                             Sunday
                         </label>
