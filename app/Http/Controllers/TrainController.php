@@ -65,7 +65,7 @@ class TrainController extends Controller
             'departure_time' => $request->input('departure_time'),
         ]);
 
-        return redirect('/Trains')
+        return redirect('/Trains');
 
     }
 
