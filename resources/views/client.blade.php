@@ -37,7 +37,9 @@
                             <div class="col-lg-6">
                                 <p style="font-size: 50px;"><i class="fa fa-ticket"></i></p>
                             </div>
-                            <div class="col-lg-6"></div>
+                            <div class="col-lg-6">
+                                <p style="font-size: 50px;">50</i></p>
+                            </div>
                         </div>
                     </div>
                 </div>
