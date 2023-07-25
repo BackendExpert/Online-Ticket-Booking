@@ -25,8 +25,10 @@
     <div class="admin-card">
         <h2>Client Dashboard</h2><hr>
 
-        User Name : <b>@php  echo auth()->user()->name;   @endphp</b> <br>
-        User Email : <b>@php  echo auth()->user()->email;   @endphp</b>
+        {{-- User Name : <b>@php  echo auth()->user()->name;   @endphp</b> <br>
+        User Email : <b>@php  echo auth()->user()->email;   @endphp</b> --}}
+
+        
     </div>
 
 @endsection
