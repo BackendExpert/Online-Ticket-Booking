@@ -24,7 +24,12 @@
         font-size: 20px;
         background: transparent;
         border: 2px solid white;
+        color: white;
+        border-radius: 5px;
+        transition: 0.5s;
+        font-weight: 500;
     }
+    
 </style>
 
 <body class="antialiased">
