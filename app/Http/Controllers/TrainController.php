@@ -54,6 +54,7 @@ class TrainController extends Controller
         $train->arrival_station = $request->arrival_station;
         $train->arrival_time = $request->arrival_time;
         $train->weekly_schedule = json_encode($request->weekly_schedule);
+        $train->stops = $request->stops;
         $train->is_active = $request->is_active;
 
         $train->save();
@@ -121,6 +122,6 @@ class TrainController extends Controller
      */
     public function destroy(string $id)
     {
-        //
+        
     }
 }
