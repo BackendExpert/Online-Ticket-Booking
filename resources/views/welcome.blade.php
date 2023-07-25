@@ -69,7 +69,7 @@
                     @auth
                         
                     @else
-                        <a href=""><button class="book-btn">Book a Ticket Now</button></a>
+                        <a href="{{ route('login') }}"><button class="book-btn">Book a Ticket Now</button></a>
                     @endauth
                 </div>
             </div>
