@@ -41,7 +41,7 @@
             <div class="row">
                 <div class="col-lg-3">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="" id="Monday">
+                        <input class="form-check-input" type="checkbox" value="Monday" id="Monday" name="weekly_schedule[]">
                         <label class="form-check-label" for="Monday">
                             Monday
                         </label>
