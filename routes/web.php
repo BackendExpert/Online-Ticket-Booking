@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\TrainController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
 
@@ -45,3 +46,5 @@ Route::resource("/users", UserController::class);
 // Route::get('/profile', [UserController::class, 'profile']);
 
 Route::resource("/profile", ProfileController::class);
+
+Route::resource('/Train', [TrainController::class]);
