@@ -29,7 +29,7 @@ class TrainController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        
     }
 
     /**
