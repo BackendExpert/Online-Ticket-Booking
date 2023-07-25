@@ -14,6 +14,6 @@ class TrainStops extends Model
 
     public function Train()
     {
-        
+        return $this->belongsTo('Train');
     }
 }
