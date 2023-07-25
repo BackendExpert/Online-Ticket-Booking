@@ -57,7 +57,7 @@ class TrainController extends Controller
             'stops' => $request->input('stops'),
             'is_active' => $request->input('is_active'),
 
-        ])
+        ]);
     }
 
     /**

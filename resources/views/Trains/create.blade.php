@@ -32,6 +32,9 @@
             <label for="Train Name">stops</label><br>
             <input type="text" name="stops" id="" class="form-control">
 
+            <label for="Train Name">is_active</label><br>
+            <input type="number" name="is_active" id="" class="form-control">
+
             <label for="Train Name">station</label><br>
             <input type="text" name="station" id="" class="form-control">
 
