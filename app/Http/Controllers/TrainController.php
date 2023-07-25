@@ -56,8 +56,16 @@ class TrainController extends Controller
             'weekly_schedule' => $request->input('weekly_schedule'),
             'stops' => $request->input('stops'),
             'is_active' => $request->input('is_active'),
-
         ]);
+
+        $train_stops = TrainStops::create([
+            'train_id' => $train->id,
+            'station' => $request->input('station'),
+            'arrival_time' => $request->input('arrival_time'),
+            'departure_time' => $request->input('departure_time'),
+        ]);
+
+
     }
 
     /**
