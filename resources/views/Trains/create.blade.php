@@ -23,7 +23,7 @@
                 </div>
                 <div class="col-lg-6">
                     <label for="Train Name">Departure Time</label><br>
-                    <input type="text" name="departure_time" id="" class="form-control"><br>
+                    <input type="time" name="departure_time" id="" class="form-control"><br>
                 </div>
             </div>
             <div class="row">
@@ -33,7 +33,7 @@
                 </div>
                 <div class="col-lg-6">
                     <label for="Train Name">Arrival Time</label><br>
-                    <input type="text" name="arrival_time" id="" class="form-control"><br>
+                    <input type="time" name="arrival_time" id="" class="form-control"><br>
                 </div>
             </div>
 
