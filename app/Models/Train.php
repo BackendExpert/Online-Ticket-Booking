@@ -9,6 +9,6 @@ class Train extends Model
 {
     protected $table = 'trains';
     protected $primaryKey = 'id';
-    protected $fillable = ['train_name', 'departure_station', 'departure_time', 'arrival_station', 'arrival_time', 'weekly_schedule', 'created_at', 'updated_at'];
+    protected $fillable = ['train_name', 'departure_station', 'departure_time', 'arrival_station', 'arrival_time', 'weekly_schedule', 'stops', 'created_at', 'updated_at'];
     use HasFactory;
 }
