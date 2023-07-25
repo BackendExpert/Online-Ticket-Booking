@@ -123,15 +123,10 @@
                 </div>
             </div>
 
+            <br><br>         
 
 
-            
-
-
-            
-
-
-            <input type="submit" value="Add" class="btn btn-success">
+          
         </form>
     </div>
 @endsection
