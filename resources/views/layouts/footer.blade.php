@@ -63,7 +63,7 @@
         </div>
         <hr>
         <center>
-            <b><i class="far fa-copyright"></i>Online Vehicle Registration</b> | Developed By <b><a href="https://github.com/JehanKandy" target="_blank" style="color:white;">JehanKandy</a> 2021 - 2023</b> & <b><a href="https://github.com/BackendExpert" target="_blank" style="color:white;">BackendExpert</a> - 2023</b> | All Rights Reserved
+            <b><i class="far fa-copyright"></i>Online Ticket Booking</b> | Developed By <b><a href="https://github.com/JehanKandy" target="_blank" style="color:white;">JehanKandy</a> 2021 - 2023</b> & <b><a href="https://github.com/BackendExpert" target="_blank" style="color:white;">BackendExpert</a> - 2023</b> | All Rights Reserved
         </center>
     </div>
 </footer>
