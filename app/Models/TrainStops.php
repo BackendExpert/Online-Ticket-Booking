@@ -11,4 +11,9 @@ class TrainStops extends Model
     protected $primaryKey = 'id';
     protected $fillable = ['train_id', 'station', 'arrival_time', 'departure_time', 'created_at', 'updated_at'];
     use HasFactory;
+
+    public function Train()
+    {
+        
+    }
 }
