@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>Vehicle Registration</title>
+    <title>Online  Registration</title>
 
     <link rel="stylesheet" href="{{ url('css/style.css') }}">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -23,7 +23,7 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="icon" type="image/x-icon" href="https://www.nicepng.com/png/detail/800-8007006_png-file-vehicle-registration-certificate-icon.png">
+    <link rel="icon" type="image/x-icon" href="https://w7.pngwing.com/pngs/99/669/png-transparent-airplane-flight-airline-ticket-ticket-text-logo-transport-thumbnail.png">
 
     <!-- Fonts -->
     <link rel="dns-prefetch" href="//fonts.bunny.net">
