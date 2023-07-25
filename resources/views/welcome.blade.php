@@ -66,7 +66,11 @@
                     Online Train Ticket Booking
                 </div>
                 <div class="main-body">
-                    <a href=""><button class="book-btn">Book a Ticket Now</button></a>
+                    @auth
+                        
+
+                    
+                    @endauth
                 </div>
             </div>
     
