@@ -35,7 +35,7 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-lg-6">
-                                
+                                <i class="far fa-money-bill-alt"></i>
                             </div>
                             <div class="col-lg-6"></div>
                         </div>
