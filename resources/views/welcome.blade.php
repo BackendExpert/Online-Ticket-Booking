@@ -15,6 +15,10 @@
         padding-top: 250px;
         font-weight: bold;
     }
+    .main-body{
+        text-align: center;
+        padding: 30px 0;
+    }
 </style>
 
 <body class="antialiased">
