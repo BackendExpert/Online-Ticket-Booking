@@ -13,27 +13,27 @@
             <div class="row">
                 <div class="col-lg-12">
                     <label for="Train Name">Train Name</label><br>
-                    <input type="text" name="train_name" id="" class="form-control">
+                    <input type="text" name="train_name" id="" class="form-control"><br>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-6">
                     <label for="Train Name">Departure Station</label><br>
-                    <input type="text" name="departure_station" id="" class="form-control">
+                    <input type="text" name="departure_station" id="" class="form-control"><br>
                 </div>
                 <div class="col-lg-6">
                     <label for="Train Name">Departure Time</label><br>
-                    <input type="text" name="departure_time" id="" class="form-control">
+                    <input type="text" name="departure_time" id="" class="form-control"><br>
                 </div>
             </div>
             <div class="row">
                 <div class="col-lg-6">
                     <label for="Train Name">Arrival Station</label><br>
-                    <input type="text" name="arrival_station" id="" class="form-control">
+                    <input type="text" name="arrival_station" id="" class="form-control"><br>
                 </div>
                 <div class="col-lg-6">
                     <label for="Train Name">Arrival Time</label><br>
-                    <input type="text" name="arrival_time" id="" class="form-control">
+                    <input type="text" name="arrival_time" id="" class="form-control"><br>
                 </div>
             </div>
             <div class="row">
@@ -43,7 +43,7 @@
                         <label class="form-check-label" for="flexCheckDefault">
                           Default checkbox
                         </label>
-                    </div>
+                    </div><br>
                 </div>
                 <div class="col-lg-3">
                     <div class="form-check">
@@ -51,7 +51,7 @@
                         <label class="form-check-label" for="flexCheckDefault">
                           Default checkbox
                         </label>
-                    </div>
+                    </div><br>
                 </div>
                 <div class="col-lg-3">
                     <div class="form-check">
@@ -59,7 +59,7 @@
                         <label class="form-check-label" for="flexCheckDefault">
                           Default checkbox
                         </label>
-                    </div>
+                    </div><br>
                 </div>
                 <div class="col-lg-3">
                     <div class="form-check">
@@ -67,7 +67,7 @@
                         <label class="form-check-label" for="flexCheckDefault">
                           Default checkbox
                         </label>
-                    </div>
+                    </div><br>
                 </div>
             </div>
 
