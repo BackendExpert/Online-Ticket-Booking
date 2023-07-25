@@ -37,7 +37,9 @@
             @endif             --}}
 
             <div class="home-content">
-
+                <div class="main-title">
+                    Online Train Ticket Booking
+                </div>
             </div>
     
 </body>
