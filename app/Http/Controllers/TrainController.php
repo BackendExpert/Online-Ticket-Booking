@@ -47,6 +47,24 @@ class TrainController extends Controller
 
         ]);
 
+        $train = New Train;
+        $train->train_name = $request->train_name;
+        $train->departure_station = $request->departure_station;
+        $train->departure_time = $request->departure_time;
+        $train->arrival_station = $request->arrival_station;
+        $train->arrival_time = $request->arrival_time;
+        $train->weekly_schedule = json_encode($request->weekly_schedule);
+        $train->is_active = $request->is_active;
+
+        $train->save();
+
+
+        $train_stops = New TrainStops;
+        $train_stops->train_id = $train->id;
+        $train_stops->station = $request->station;     
+        $train_stops->time_arrival = $request->time_arrival;      
+        $train_stops->time_departure = $request->time_departure;   
+
         $train = Train::create([
             'train_name' => $request->input('train_name'),
             'departure_station' => $request->input('departure_station'),
