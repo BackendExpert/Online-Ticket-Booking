@@ -1,64 +1,35 @@
 <?php
 
-namespace App\Http\Controllers;
+use Illuminate\Database\Migrations\Migration;
+use Illuminate\Database\Schema\Blueprint;
+use Illuminate\Support\Facades\Schema;
 
-use Illuminate\Http\Request;
-
-class TrainController extends Controller
+return new class extends Migration
 {
     /**
-     * Display a listing of the resource.
+     * Run the migrations.
      */
-    public function index()
+    public function up(): void
     {
-        
+        Schema::create('trains', function (Blueprint $table) {
+            $table->id();
+            $table->string('train_name');
+            $table->string('departure_station');
+            $table->string('departure_time');
+            $table->string('arrival_station');
+            $table->string('arrival_time');
+            $table->string('weekly_schedule');
+            $table->longText('stops');
+            $table->integer('is_active');
+            $table->timestamps();
+        });
     }
 
     /**
-     * Show the form for creating a new resource.
+     * Reverse the migrations.
      */
-    public function create()
+    public function down(): void
     {
-        //
+        Schema::dropIfExists('trains');
     }
-
-    /**
-     * Store a newly created resource in storage.
-     */
-    public function store(Request $request)
-    {
-        //
-    }
-
-    /**
-     * Display the specified resource.
-     */
-    public function show(string $id)
-    {
-        //
-    }
-
-    /**
-     * Show the form for editing the specified resource.
-     */
-    public function edit(string $id)
-    {
-        //
-    }
-
-    /**
-     * Update the specified resource in storage.
-     */
-    public function update(Request $request, string $id)
-    {
-        //
-    }
-
-    /**
-     * Remove the specified resource from storage.
-     */
-    public function destroy(string $id)
-    {
-        //
-    }
-}
+};

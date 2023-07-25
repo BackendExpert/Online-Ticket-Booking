@@ -13,14 +13,6 @@ return new class extends Migration
     {
         Schema::create('trains', function (Blueprint $table) {
             $table->id();
-            $table->string('train_name');
-            $table->string('departure_station');
-            $table->string('departure_time');
-            $table->string('arrival_station');
-            $table->string('arrival_time');
-            $table->string('weekly_schedule');
-            $table->longText('stops');
-            $table->integer('is_active');
             $table->timestamps();
         });
     }
