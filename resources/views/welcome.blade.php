@@ -9,6 +9,11 @@
         background-repeat: no-repeat;
         background-size: cover;
     }
+    .main-title{
+        font-size: 30px;
+        text-align: center;
+        padding-top: 250px;
+    }
 </style>
 
 <body class="antialiased">
