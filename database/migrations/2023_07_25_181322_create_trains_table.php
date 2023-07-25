@@ -18,7 +18,7 @@ return new class extends Migration
             $table->string('departure_time');
             $table->string('arrival_station');
             $table->string('arrival_time');
-            $table->string('weekly_schedule');
+            $table->longText('weekly_schedule');
             $table->longText('stops');
             $table->integer('is_active');
             $table->timestamps();
