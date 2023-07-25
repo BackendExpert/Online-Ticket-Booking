@@ -108,7 +108,7 @@
                 class="fas fa-user-tie me-2"></i>Users</a>            
             @endif
             <a href="{{url('/mybooking')}}" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
-                class="fas fa-user-tie me-2"></i>My Bookings</a>
+                class="fa fa-ticket me-2"></i>My Bookings</a>
 
 
             
