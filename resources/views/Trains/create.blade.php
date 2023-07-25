@@ -108,29 +108,28 @@
             <br>
             <hr><br>
 
+            <div class="row">
+                <div class="col-lg-4">
+                    <label for="Train Name">Station</label><br>
+                    <input type="text" name="station" id="" class="form-control">
+                </div>
+                <div class="col-lg-4">
+                    <label for="Train Name">time_arrival</label><br>
+                    <input type="text" name="time_arrival" id="" class="form-control">
+                </div>
+                <div class="col-lg-4">
+                    <label for="Train Name">time_departure</label><br>
+                    <input type="text" name="time_departure" id="" class="form-control">
+                </div>
+            </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-            <label for="Train Name">station</label><br>
-            <input type="text" name="station" id="" class="form-control">
 
             
-            <label for="Train Name">time_arrival</label><br>
-            <input type="text" name="time_arrival" id="" class="form-control">
+
 
             
-            <label for="Train Name">time_departure</label><br>
-            <input type="text" name="time_departure" id="" class="form-control">
+
 
             <input type="submit" value="Add" class="btn btn-success">
         </form>
