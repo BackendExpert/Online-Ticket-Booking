@@ -10,9 +10,10 @@
         background-size: cover;
     }
     .main-title{
-        font-size: 30px;
+        font-size: 50px;
         text-align: center;
         padding-top: 250px;
+        font-weight: bold;
     }
 </style>
 
@@ -44,6 +45,9 @@
             <div class="home-content">
                 <div class="main-title">
                     Online Train Ticket Booking
+                </div>
+                <div class="main-body">
+                    <a href=""><button class="book-btn">Book a Ticket Now</button></a>
                 </div>
             </div>
     
