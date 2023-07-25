@@ -16,8 +16,8 @@ return new class extends Migration
             $table->unsignedBigInteger('train_id');
             $table->foreign('train_id')->references('id')->on('trains')->onDelete('cascade');
             $table->string('station');
-            $table->string('arrival_time');
-            $table->string('departure_time');
+            $table->string('time_arrival');
+            $table->string('time_departure');
             $table->timestamps();
         });
     }
