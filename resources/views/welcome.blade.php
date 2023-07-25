@@ -68,8 +68,8 @@
                 <div class="main-body">
                     @auth
                         
-
-                    
+                    @else
+                        <a href=""><button class="book-btn">Book a Ticket Now</button></a>
                     @endauth
                 </div>
             </div>
