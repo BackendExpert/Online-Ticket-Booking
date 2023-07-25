@@ -16,6 +16,7 @@ return new class extends Migration
             $table->integer('train_id');
             $table->string('station');
             $table->string('arrival_time');
+            $table->string('departure_time');
             $table->timestamps();
         });
     }
