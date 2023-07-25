@@ -13,6 +13,7 @@ return new class extends Migration
     {
         Schema::create('my_bookings', function (Blueprint $table) {
             $table->id();
+            $table->string('booker');
             $table->timestamps();
         });
     }
