@@ -70,6 +70,26 @@
                     </div><br>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-lg-4">
+                </div>
+                <div class="col-lg-4">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Thursday">
+                        <label class="form-check-label" for="Thursday">
+                            Thursday
+                        </label>
+                    </div><br>
+                </div>
+                <div class="col-lg-4">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="Thursday">
+                        <label class="form-check-label" for="Thursday">
+                            Thursday
+                        </label>
+                    </div><br>
+                </div>
+            </div>
 
 
 
