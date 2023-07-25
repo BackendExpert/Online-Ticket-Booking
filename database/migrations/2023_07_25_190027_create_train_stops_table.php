@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('train_stops', function (Blueprint $table) {
             $table->id();
             $table->index('train_id');
-            $table->foreign('train_id')->references('id')
+            $table->foreign('train_id')->references('id')->on('trains')->onDelete('cascade');
             $table->string('station');
             $table->string('arrival_time');
             $table->string('departure_time');
