@@ -10,15 +10,28 @@
 
         <form action="{{ url('Trains') }}" method="POST">
             @csrf
+            <div class="row">
+                <div class="col-lg-12">
+                    <label for="Train Name">Train Name</label><br>
+                    <input type="text" name="train_name" id="" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6">
+                    <label for="Train Name">departure_station</label><br>
+                    <input type="text" name="departure_station" id="" class="form-control">
+                </div>
+                <div class="col-lg-6">
+                    <label for="Train Name">departure_time</label><br>
+                    <input type="text" name="departure_time" id="" class="form-control">
+                </div>
+            </div>
 
-            <label for="Train Name">Train Name</label><br>
-            <input type="text" name="train_name" id="" class="form-control">
 
-            <label for="Train Name">departure_station</label><br>
-            <input type="text" name="departure_station" id="" class="form-control">
 
-            <label for="Train Name">departure_time</label><br>
-            <input type="text" name="departure_time" id="" class="form-control">
+
+
+
 
             <label for="Train Name">arrival_station</label><br>
             <input type="text" name="arrival_station" id="" class="form-control">
