@@ -35,7 +35,7 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-lg-6">
-                                <p><i class="fa fa-ticket-alt"></i></p>
+                                <h1><i class="fa fa-ticket"></i></h1>
                             </div>
                             <div class="col-lg-6"></div>
                         </div>
