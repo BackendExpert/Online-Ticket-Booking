@@ -2,7 +2,7 @@
 
 <style>
     .home-content{
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.959)), url('https://wallpaperaccess.com/full/1461752.jpg');
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.801), rgba(109, 109, 109, 0.432)), url('https://wallpaperaccess.com/full/1461752.jpg');
         height: 80vh;
         color: white;
         background-position: center;
