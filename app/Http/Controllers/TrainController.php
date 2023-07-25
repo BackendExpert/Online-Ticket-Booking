@@ -42,8 +42,8 @@ class TrainController extends Controller
             'is_active' => 'required|string',
             'station' => 'required|string',
 
-            'arrival_time' => 'required|string',
-            'departure_time' => 'required|string',
+            'time_arrival' => 'required|string',
+            'time_departure' => 'required|string',
 
         ]);
 
@@ -61,8 +61,8 @@ class TrainController extends Controller
         $train_stops = TrainStops::create([
             'train_id' => $train->id,
             'station' => $request->input('station'),
-            'arrival_time' => $request->input('arrival_time'),
-            'departure_time' => $request->input('departure_time'),
+            'time_arrival' => $request->input('time_arrival'),
+            'time_departure' => $request->input('time_departure'),
         ]);
 
         return redirect('/Trains');
