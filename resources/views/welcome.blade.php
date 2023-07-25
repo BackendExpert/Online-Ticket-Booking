@@ -1,7 +1,9 @@
 @include('header')
 
 <style>
-
+    .home-content{
+        
+    }
 </style>
 
 <body class="antialiased">
@@ -29,6 +31,9 @@
 
             @endif             --}}
 
+            <div class="home-content">
+
+            </div>
     
 </body>
 
