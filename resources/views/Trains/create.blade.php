@@ -29,11 +29,21 @@
             <label for="Train Name">weekly_schedule</label><br>
             <input type="text" name="weekly_schedule" id="" class="form-control">
 
-            <label for="Train Name">weekly_schedule</label><br>
-            <input type="text" name="weekly_schedule" id="" class="form-control">
+            <label for="Train Name">stops</label><br>
+            <input type="text" name="stops" id="" class="form-control">
 
-            <label for="Train Name">weekly_schedule</label><br>
-            <input type="text" name="weekly_schedule" id="" class="form-control">
+            <label for="Train Name">station</label><br>
+            <input type="text" name="station" id="" class="form-control">
+
+            
+            <label for="Train Name">arrival_time</label><br>
+            <input type="text" name="arrival_time" id="" class="form-control">
+
+            
+            <label for="Train Name">arrival_time</label><br>
+            <input type="text" name="arrival_time" id="" class="form-control">
+
+            <input type="submit" value="Add" class="btn btn-success">
         </form>
     </div>
 @endsection
