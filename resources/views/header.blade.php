@@ -17,7 +17,7 @@
 
     <!-- Styles -->
 
-    <link rel="icon" type="image/x-icon" href="https://www.nicepng.com/png/detail/800-8007006_png-file-vehicle-registration-certificate-icon.png">
+    <link rel="icon" type="image/x-icon" href="https://w7.pngwing.com/pngs/99/669/png-transparent-airplane-flight-airline-ticket-ticket-text-logo-transport-thumbnail.png">
 
     <script src="{{ asset('js/script.js') }}"></script>
 
