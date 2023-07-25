@@ -50,7 +50,7 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-lg-6">
-                                <p style="font-size: 50px;"><i class="fa fa-ticket"></i></p>
+                                <p style="font-size: 50px;"><i class="fas fa-dollar-sign"></i></p>
                             </div>
                             <div class="col-lg-6">
                                 <p style="font-size: 50px;">50</i></p>
@@ -80,7 +80,7 @@
                     <div class="card-body">
                         <div class="row">
                             <div class="col-lg-6">
-                                <p style="font-size: 50px;"><i class="fa fa-ticket"></i></p>
+                                <p style="font-size: 50px;"><i class="fas fa-dollar-sign"></i></p>
                             </div>
                             <div class="col-lg-6">
                                 <p style="font-size: 50px;">50</i></p>
