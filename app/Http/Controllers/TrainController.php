@@ -48,23 +48,25 @@ class TrainController extends Controller
         ]);
 
         $train = New Train;
-        $train->train_name = $request->train_name;
-        $train->departure_station = $request->departure_station;
-        $train->departure_time = $request->departure_time;
-        $train->arrival_station = $request->arrival_station;
-        $train->arrival_time = $request->arrival_time;
-        $train->weekly_schedule = json_encode($request->weekly_schedule);
-        $train->is_active = $request->is_active;
+        // $train->train_name = $request->train_name;
+        // $train->departure_station = $request->departure_station;
+        // $train->departure_time = $request->departure_time;
+        // $train->arrival_station = $request->arrival_station;
+        // $train->arrival_time = $request->arrival_time;
+        // $train->weekly_schedule = json_encode($request->weekly_schedule);
+        // $train->is_active = $request->is_active;
 
         // $train->save();
 
-        dd($train);
+        // dd($train);
 
-        // $train_stops = New TrainStops;
-        // $train_stops->train_id = $train->id;
-        // $train_stops->station = $request->station;     
-        // $train_stops->time_arrival = $request->time_arrival;      
-        // $train_stops->time_departure = $request->time_departure;   
+        $train_stops = New TrainStops;
+        $train_stops->train_id = $train->id;
+        $train_stops->station = $request->station;     
+        $train_stops->time_arrival = $request->time_arrival;      
+        $train_stops->time_departure = $request->time_departure;   
+
+        dd($train_stops);
 
         // $train_stops->save();
 
