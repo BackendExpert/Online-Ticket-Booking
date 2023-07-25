@@ -1,7 +1,11 @@
 @extends('layouts.dash')
 
-@if (Auth::user()->role == 2 || Auth::user()->role == 3)
+@if (Auth::user()->role == 2)
 <script>window.location = "/users";</script>
+@endif
+
+@if (Auth::user()->role == 3)
+<script>window.location = "/client";</script>
 @endif
 
 @section('content')
