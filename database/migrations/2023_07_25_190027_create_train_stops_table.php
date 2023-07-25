@@ -13,7 +13,8 @@ return new class extends Migration
     {
         Schema::create('train_stops', function (Blueprint $table) {
             $table->id();
-            $table->integer('train_id');
+            $table->index('train_id');
+            $table->foreign('train_id')->references('id')
             $table->string('station');
             $table->string('arrival_time');
             $table->string('departure_time');
