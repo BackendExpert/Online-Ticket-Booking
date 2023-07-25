@@ -19,6 +19,9 @@
         text-align: center;
         padding: 30px 0;
     }
+    .book-btn{
+        padding: 20px 30px;
+    }
 </style>
 
 <body class="antialiased">
