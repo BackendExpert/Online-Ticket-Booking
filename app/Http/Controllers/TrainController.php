@@ -11,7 +11,7 @@ class TrainController extends Controller
      */
     public function index()
     {
-        //
+        
     }
 
     /**
