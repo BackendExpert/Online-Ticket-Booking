@@ -1,8 +1,7 @@
 <style>
     footer{
         padding: 50px 0;
-        background-image: url('https://wallpapercave.com/dwp1x/E2Ab6Y4.jpg');
-        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.959)), url('https://wallpapercave.com/dwp1x/wp8825444.jpg');
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.959)), url('https://wallpapercave.com/dwp1x/E2Ab6Y4.jpg');
         color: white;
         background-position: center;
         background-repeat: no-repeat;
