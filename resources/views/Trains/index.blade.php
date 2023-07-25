@@ -10,6 +10,7 @@
 
         @foreach ($all_trains as $train)
             {{ $train->train_name }} <br>
+            {{ $train->train_stops_all-> }} <br>
         @endforeach
 
     </div>
