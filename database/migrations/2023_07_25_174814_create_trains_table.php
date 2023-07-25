@@ -16,7 +16,9 @@ return new class extends Migration
             $table->string('train_name');
             $table->string('departure_station');
             $table->string('departure_time');
-            $table->string('_time')
+            $table->string('arrival_station');
+            $table->string('arrival_time');
+            $table->string('weekly_schedule');
             $table->timestamps();
         });
     }
