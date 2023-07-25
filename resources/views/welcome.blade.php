@@ -29,7 +29,10 @@
         transition: 0.5s;
         font-weight: 500;
     }
-    
+    .book-btn:hover{
+        cursor: pointer;
+        background: white;
+    }
 </style>
 
 <body class="antialiased">
