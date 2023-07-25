@@ -37,7 +37,7 @@ class TrainController extends Controller
             'departure_time' => 'required|string',
             'arrival_station' => 'required|string',
             'arrival_time' => 'required|string',
-            'weekly_schedule' => 'required|string',
+            'weekly_schedule' => 'required',
             'stops' => 'required|string',
             'is_active' => 'required|string',
             'station' => 'required|string',
