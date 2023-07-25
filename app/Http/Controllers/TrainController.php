@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Train;
+use App\Models\TrainStops;
 use Illuminate\Http\Request;
 
 class TrainController extends Controller
