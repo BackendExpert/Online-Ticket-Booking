@@ -2,7 +2,7 @@
 
 <style>
     .home-content{
-        
+        background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.801), rgba(0, 0, 0, 0.959)), url('https://wallpapercave.com/dwp1x/E2Ab6Y4.jpg');
     }
 </style>
 
