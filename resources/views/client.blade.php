@@ -34,7 +34,9 @@
                     <div class="card-header">My Tickets</div>
                     <div class="card-body">
                         <div class="row">
-                            <div class="col-lg-6"></div>
+                            <div class="col-lg-6">
+                                
+                            </div>
                             <div class="col-lg-6"></div>
                         </div>
                     </div>
