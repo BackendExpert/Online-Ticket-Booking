@@ -38,7 +38,7 @@
                                 <p style="font-size: 50px;"><i class="fa fa-ticket"></i></p>
                             </div>
                             <div class="col-lg-6">
-                                <p style="font-size: 50px;">50</i></p>
+                                <p style="font-size: 25px;">50</i></p>
                             </div>
                         </div>
                     </div>
@@ -53,7 +53,7 @@
                                 <p style="font-size: 50px;"><i class="fas fa-dollar-sign"></i></p>
                             </div>
                             <div class="col-lg-6">
-                                <p style="font-size: 50px;">1500.00</i></p>
+                                <p style="font-size: 25px;">1500.00</i></p>
                             </div>
                         </div>
                     </div>
@@ -68,7 +68,7 @@
                                 <p style="font-size: 50px;"><i class="fas fa-money-bill-wave"></i></p>
                             </div>
                             <div class="col-lg-6">
-                                <p style="font-size: 50px;">50</i></p>
+                                <p style="font-size: 25px;">50</i></p>
                             </div>
                         </div>
                     </div>
@@ -83,7 +83,7 @@
                                 <p style="font-size: 50px;"><i class="fas fa-dollar-sign"></i></p>
                             </div>
                             <div class="col-lg-6">
-                                <p style="font-size: 50px;">5000.00</i></p>
+                                <p style="font-size: 25px;">5000.00</i></p>
                             </div>
                         </div>
                     </div>
