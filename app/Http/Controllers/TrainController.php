@@ -21,7 +21,7 @@ class TrainController extends Controller
      */
     public function create()
     {
-        //
+        return view('Trains.create');
     }
 
     /**
