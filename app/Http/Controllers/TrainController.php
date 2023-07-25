@@ -53,7 +53,7 @@ class TrainController extends Controller
             'departure_time' => $request->input('departure_time'),
             'arrival_station' => $request->input('arrival_station'),
             'arrival_time' => $request->input('arrival_time'),
-            'weekly_schedule' => $request->input('weekly_schedule'),
+            'weekly_schedule' => $request->,
             'stops' => $request->input('stops'),
             'is_active' => $request->input('is_active'),
         ]);
