@@ -104,9 +104,17 @@
             <a href="{{url('/admin')}}" class="list-group-item list-group-item-action bg-transparent second-text active"><i
                     class="fas fa-tachometer-alt me-2"></i>Dashboard</a>
 
-      
-            <a href="{{url('/users')}}" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
+            @php
+                if(Auth::user()->role == 1 && Auth::user()->role == 2){
+            @endphp
+                <a href="{{url('/users')}}" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
                     class="fas fa-user-tie me-2"></i>All Users</a>
+            @php
+                }
+            @endphp
+
+
+
             
         </div>
     </div>
