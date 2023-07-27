@@ -138,21 +138,28 @@
             <br>
             <hr><br>
 
-            <table class="table table-bordered" id="table">
-                <tr>
-                    <th>Station</th>
-                    <th>Action</th>
-                </tr>
-                <tr>
-                    <td>
-                        <input type="text" name="inputs[0]['name']" placeholder="Station Name" 
-                            class="form-control">
-                    </td>
-                    <td>
-                        <button type="button" name="add" id="add" class="btn btn-primary">Add More Stations</button>
-                    </td>
-                </tr>
-            </table>
+            <div id="repeater">
+                <b>Add Stations</b> <br><br>
+                <div class="repeater-item">
+                    
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <input type="text" name="data[]" placeholder="Enter data" class="form-control">
+                        </div>
+                        <div class="col-lg-3">
+                            <input type="text" name="data[]" placeholder="Enter data" class="form-control">
+                        </div>
+                        <div class="col-lg-3">
+                            <input type="text" name="data[]" placeholder="Enter data" class="form-control">
+                        </div>
+                        <div class="col-lg-3">
+                            <button type="button" class="btn btn-sm btn-danger remove-btn">Remove</button>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <br>
+              <button type="button" class="btn btn-sm btn-primary" id="add-btn">Add More Startions</button>
 
             <br><br>
 
@@ -166,19 +173,37 @@
 @endsection
 
 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 <script>
-    var i = 0;
-    $('#add').click(function() {
-        ++i;
-        $('#table').append(
-            `
-            <tr>
-                <td>
-                    <input type="text" name="input[` + i + `][station]" placeholder="Station Name" class="form-control" />
-                </td>
-                <td>
-                    <button type="button" class="btn btn-danger remove-table-row">Remove</button>
-                </td>
-            <tr>`);
+  $(document).ready(function() {
+    // Add new repeater item
+    $('#add-btn').click(function() {
+      var repeaterItem = 
+        '<br>'+
+        '<div class="repeater-item">' +
+        '<div class="row">'+
+        '<div class="col-lg-3">'+
+        '<input type="text" name="data[]" placeholder="Enter data" class="form-control">' +
+        '</div>'+
+        '<div class="col-lg-3">'+
+        '<input type="text" name="data[]" placeholder="Enter data" class="form-control">' +
+        '</div>'+
+        '<div class="col-lg-3">'+
+        '<input type="text" name="data[]" placeholder="Enter data" class="form-control">' +
+        '</div>'+
+        '<div class="col-lg-3">'+
+        '<button type="button" class="btn btn-sm btn-danger remove-btn">Remove</button>' +
+        '</div>'
+        '</div>'+
+        '</div>';
+
+        
+      $('#repeater').append(repeaterItem);
     });
+
+    // Remove repeater item
+    $(document).on('click', '.remove-btn', function() {
+      $(this).closest('.repeater-item').remove();
+    });
+  });
 </script>
