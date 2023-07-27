@@ -142,7 +142,7 @@
                         <td></td>
                         <td></td>
                         <td>
-                            
+                            <button class="btn btn-primary"></button>
                         </td>
                     </tr>
                 </tbody>
