@@ -20,7 +20,7 @@
             <tbody>
                 @foreach ($trains as $train)
                     <tr>
-                        <td>1</td>
+                        <td>{{ $loop->iteration }}</td>
                         <td>{{ $train->train_name }}</td>
                     </tr>
                 @endforeach
