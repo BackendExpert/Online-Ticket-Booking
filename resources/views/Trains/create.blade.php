@@ -142,7 +142,7 @@
                         <td></td>
                         <td></td>
                         <td>
-                            <button class="btn btn-primary"></button>
+                            <button class="btn btn-primary" name="add" id="add">Add More Stations</button>
                         </td>
                     </tr>
                 </tbody>
