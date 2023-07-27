@@ -139,6 +139,11 @@
                 <tbody>
                     <tr>
                         <td><input type="text" name="inputs[0]['station']" id="" class="form-control"></td>
+                        <td></td>
+                        <td></td>
+                        <td>
+                            
+                        </td>
                     </tr>
                 </tbody>
             </table>
