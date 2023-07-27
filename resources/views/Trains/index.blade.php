@@ -18,18 +18,16 @@
                 </tr>
             </thead>
             <tbody>
-
+                @foreach ($train as $tra)
+                    {{ $tra->train_name }} <br>
+                @endforeach
             </tbody>
         </table>
 
 
 
 
-        @foreach ($train as $tra)
-            {{ $tra->train_name }} <br>
-            {{-- <p style="color: red;"> {{ $train->train_stops_all->time_arrival }} </p> --}}
 
-        @endforeach
 
         @foreach ($trainStops as $stop)
             <p style="color:red;">{{ $stop->station }}</p>
