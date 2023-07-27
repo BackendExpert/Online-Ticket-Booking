@@ -8,12 +8,12 @@
 
 <br>
 
-        @foreach ($all_trains as $train)
+        @foreach ($train as $tra)
             {{ $train->train_name }} <br>
             {{-- <p style="color: red;"> {{ $train->train_stops_all->time_arrival }} </p> --}}
 
-            @foreach ($train as $item)
-                
+            @foreach ($trainStops as $stop)
+                {{ $stop-> }}
             @endforeach
 
         @endforeach
