@@ -181,7 +181,10 @@
             `
             <tr>
                 <td>
-                    <input type="text" name="input[`+i+`][station]" placeholder="Station Name"   
+                    <input type="text" name="input[`+i+`][station]" placeholder="Station Name"  class="form-control">
+                </td>
+                <td>
+                
                 </td>
             </tr>`
         );
