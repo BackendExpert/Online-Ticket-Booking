@@ -31,10 +31,8 @@
                         <td>{{ $train->arrival_station }}</td>
                         <td>{{ $train->arrival_time }}</td>
                         <td>{{ $train->weekly_schedule }}</td>
-                        <td>{{ $train->departure_station }}</td>
-                        <td>{{ $train->departure_station }}</td>
-                        <td>{{ $train->departure_station }}</td>
-                        <td>{{ $train->departure_station }}</td>
+                        <td>{{ $train->is_active }}</td>
+                        <td></td>
                     </tr>
                 @endforeach
                 
