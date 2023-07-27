@@ -41,10 +41,10 @@
                         <td>
                             @php
                                 if($train->is_active == 1){
-                                    echo "<h3 class='badge bg-secondary'>Active</h3>";
+                                    echo "<h3 class='badge bg-success'>Active</h3>";
                                 }
                                 elseif($train->is_active == 0){
-                                    echo "<h3 class='badge bg-secondary'>Deactive</h3>";
+                                    echo "<h3 class='badge bg-danger'>Deactive</h3>";
                                 }
                             @endphp
                         </td>
