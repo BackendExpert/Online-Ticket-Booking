@@ -10,7 +10,7 @@
         <table class="table">
             <thead class="table-primary">
                 <tr>
-                    <th>#</th>
+                    <th><b>#</b></th>
                 </tr>
             </thead>
         </table>
