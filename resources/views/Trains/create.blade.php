@@ -136,6 +136,9 @@
                     <td>
                         <input type="text" name="inputs[0]['name']" placeholder="Station Name" id="" class="form-control">
                     </td>
+                    <td>
+                        <button type="button" name="add" id="add" class="btn btn-primary">Add More Stations</button>
+                    </td>
                 </tr>
             </table>
 
