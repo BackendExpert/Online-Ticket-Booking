@@ -127,6 +127,18 @@
             <br>
             <hr><br>
 
+            <table class="table table-bordered" id="table">
+                <tr>
+                    <th>Station</th>
+                    <th>Action</th>
+                </tr>
+                <tr>
+                    <td>
+                        <input type="text" name="inputs[0]['name']" id="" class="form-control">
+                    </td>
+                </tr>
+            </table>
+
             <br><br>
 
             <input type="submit" value="Add Train" class="btn btn-success" style="width: 100%;">
