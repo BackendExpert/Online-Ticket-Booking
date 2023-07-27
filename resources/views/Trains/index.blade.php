@@ -13,6 +13,13 @@
                     <th><b>#</b></th>
                     <th><b>Train Name</b></th>
                     <th><b>Departure Station</b></th>
+                    <th><b>departure_time</b></th>
+                    <th><b>arrival_station</b></th>
+                    <th><b>#</b></th>
+                    <th><b>#</b></th>
+                    <th><b>#</b></th>
+                    <th><b>#</b></th>
+                    <th><b>#</b></th>
                     <th><b>#</b></th>
                     <th><b>#</b></th>
                 </tr>
@@ -23,8 +30,8 @@
                         <td><b>{{ $loop->iteration }}</b></td>
                         <td>{{ $train->train_name }}</td>
                         <td>{{ $train->departure_station }}</td>
-                        <td>{{ $train->departure_station }}</td>
-                        <td>{{ $train->departure_station }}</td>
+                        <td>{{ $train->departure_time }}</td>
+                        <td>{{ $train->arrival_station }}</td>
                         <td>{{ $train->departure_station }}</td>
                         <td>{{ $train->departure_station }}</td>
                         <td>{{ $train->departure_station }}</td>
