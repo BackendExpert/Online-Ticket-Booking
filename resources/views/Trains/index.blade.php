@@ -20,9 +20,15 @@
             <tbody>
                 @foreach ($train as $tra)
                     <tr>
+                        <td>1</td>
                         <td>{{ $tra->train_name }}</td>
-                    </tr>
+                        
+                        @foreach ($trainStops as $stop)
+                            <td>{{ $stop->station }}</td>
+                        @endforeach
                 @endforeach
+
+                </tr>
             </tbody>
         </table>
 
@@ -31,9 +37,7 @@
 
 
 
-        @foreach ($trainStops as $stop)
-            <p style="color:red;">{{ $stop->station }}</p>
-        @endforeach
+
 
     </div>
 @endsection
