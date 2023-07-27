@@ -6,7 +6,7 @@
         <hr><br>
         <a href="{{ url('Trains/create') }}"><button class="btn btn-success"><i class="fas fa-train"></i> Add Train</button></a>
 
-<br>
+    <br>
 
         @foreach ($train as $tra)
             {{ $tra->train_name }} <br>
