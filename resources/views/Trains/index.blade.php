@@ -6,14 +6,16 @@
         <hr><br>
         <a href="{{ url('Trains/create') }}"><button class="btn btn-success"><i class="fas fa-train"></i> Add Train</button></a>
 
-    <br>
+        <br><br>
         <table class="table">
-            <thead class="table-praimary">
+            <thead class="table-primary">
                 <tr>
                     <th>#</th>
                 </tr>
             </thead>
         </table>
+
+
 
 
         @foreach ($train as $tra)
