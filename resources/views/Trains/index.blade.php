@@ -16,8 +16,8 @@
                     <th><b>departure_time</b></th>
                     <th><b>arrival_station</b></th>
                     <th><b>arrival_time</b></th>
-                    <th><b>#</b></th>
-                    <th><b>#</b></th>
+                    <th><b>weekly_schedule</b></th>
+                    <th><b>Is </b></th>
                     <th><b>#</b></th>
                     <th><b>#</b></th>
                     <th><b>#</b></th>
@@ -33,7 +33,7 @@
                         <td>{{ $train->departure_time }}</td>
                         <td>{{ $train->arrival_station }}</td>
                         <td>{{ $train->arrival_time }}</td>
-                        <td>{{ $train->departure_station }}</td>
+                        <td>{{ $train->weekly_schedule }}</td>
                         <td>{{ $train->departure_station }}</td>
                         <td>{{ $train->departure_station }}</td>
                         <td>{{ $train->departure_station }}</td>
