@@ -183,7 +183,8 @@ document.addEventListener("DOMContentLoaded", function () {
         const repeaterRow = document.createElement("div");
         repeaterRow.classList.add("repeater-row");
         repeaterRow.innerHTML = `
-        <div class="col-lg-3">
+        <div class="row">
+                        <div class="col-lg-3">
                             <input type="text" name="field_name[]" placeholder="Field Name" class="form-control">
                         </div>
                         <div class="col-lg-3">
@@ -194,7 +195,8 @@ document.addEventListener("DOMContentLoaded", function () {
                         </div>
                         <div class="col-lg-3">
                             <button type="button" class="btn btn-danger remove-row">Remove</button>
-                        </div>
+                        </div>   
+                    </div>
         `;
 
         repeaterContainer.appendChild(repeaterRow);
