@@ -13,10 +13,10 @@
                     <th><b>#</b></th>
                     <th><b>Train Name</b></th>
                     <th><b>Departure Station</b></th>
-                    <th><b>departure_time</b></th>
-                    <th><b>arrival_station</b></th>
-                    <th><b>arrival_time</b></th>
-                    <th><b>weekly_schedule</b></th>
+                    <th><b>Departure Time</b></th>
+                    <th><b>Arrival Station</b></th>
+                    <th><b>Arrival Time</b></th>
+                    <th><b>Weekly Schedule</b></th>
                     <th><b>Train Status</b></th>
                     <th><b>Action</b></th>
                 </tr>
