@@ -13,7 +13,7 @@
             {{-- <p style="color: red;"> {{ $train->train_stops_all->time_arrival }} </p> --}}
 
             @foreach ($trainStops as $stop)
-                {{ $stop-> }}
+                {{ $stop->station }}
             @endforeach
 
         @endforeach
