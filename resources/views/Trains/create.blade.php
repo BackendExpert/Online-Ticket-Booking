@@ -178,7 +178,12 @@
     $('#add').click(function()){
         ++i;
         $('#table').append(
-
+            `
+            <tr>
+                <td>
+                        
+                </td>
+            </tr>`
         );
     }
 </script>
