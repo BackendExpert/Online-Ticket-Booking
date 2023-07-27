@@ -17,8 +17,8 @@ class TrainController extends Controller
         // $all_trians = Train::all();
         // return view('Trains.index')->with('all_trians', $all_trians);
 
-        $train = Train::all();
-        return view('Trains.index')->with('train', $train);
+        $trains = Train::all();
+        return view('Trains.index')->with('trains', $trains);
 
     }
 
