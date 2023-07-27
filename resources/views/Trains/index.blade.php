@@ -11,8 +11,15 @@
             <thead class="table-primary">
                 <tr>
                     <th><b>#</b></th>
+                    <th><b>Train Name</b></th>
+                    <th><b>Station</b></th>
+                    <th><b>#</b></th>
+                    <th><b>#</b></th>
                 </tr>
             </thead>
+            <tbody>
+
+            </tbody>
         </table>
 
 
