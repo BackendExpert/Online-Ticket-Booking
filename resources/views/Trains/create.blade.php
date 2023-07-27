@@ -156,13 +156,13 @@
 
 <script>
     var i = 0;
-    $('#add').click(function(){
+    $('add').click(function(){
         ++i;
-        $('#table').append(
+        $('table').append(
             `
             <tr>
                 <td>
-                    <input type="text" name="input[`+i+`][name]" placeholder="Station Name" class="form-control" />
+                    <input type="text" name="input[`+ i +`][station]" placeholder="Station Name" class="form-control" />
                 </td>
                 <td>
                     <button type="button" class="btn btn-danger remove-table-row">Remove</button>
