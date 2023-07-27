@@ -130,18 +130,20 @@
             <div id="repeater-container">
                 <!-- Initial row -->
                 <div class="repeater-row">
-                    <div class="col-lg-3">
-                        <input type="text" name="field_name[]" placeholder="Field Name" class="form-control">
+                    <div class="row">
+                        <div class="col-lg-3">
+                            <input type="text" name="field_name[]" placeholder="Field Name" class="form-control">
+                        </div>
+                        <div class="col-lg-3">
+                            <input type="text" name="field_value[]" placeholder="Field Value" class="form-control">
+                        </div>
+                        <div class="col-lg-3">
+                            <input type="text" name="field_value[]" placeholder="Field Value" class="form-control">
+                        </div>
+                        <div class="col-lg-3">
+                            <button type="button" class="remove-row">Remove</button>
+                        </div>   
                     </div>
-                    <div class="col-lg-3">
-                        <input type="text" name="field_value[]" placeholder="Field Value" class="form-control">
-                    </div>
-                    <div class="col-lg-3">
-                        <input type="text" name="field_value[]" placeholder="Field Value" class="form-control">
-                    </div>
-                    <div class="col-lg-3">
-                        <button type="button" class="remove-row">Remove</button>
-                    </div>                    
                 </div>
             </div>
         
