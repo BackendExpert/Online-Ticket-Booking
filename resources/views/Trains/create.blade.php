@@ -122,14 +122,7 @@
                 </div>
                 <div class="col-lg-3"></div>
             </div><br><br>
-            <div class="row">
-                <div class="col-lg-12">
-                    <label for="Train Name">Train Stops</label><br>
-                    <input type="text" name="stops" id="" class="form-control">
-                    <input type="hidden" name="is_active" value="1">
-                </div>
-            </div>
-
+            <input type="hidden" name="is_active" value="1">
 
             <br>
             <hr><br>
