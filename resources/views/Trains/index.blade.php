@@ -17,11 +17,8 @@
                     <th><b>arrival_station</b></th>
                     <th><b>arrival_time</b></th>
                     <th><b>weekly_schedule</b></th>
-                    <th><b>Is </b></th>
-                    <th><b>#</b></th>
-                    <th><b>#</b></th>
-                    <th><b>#</b></th>
-                    <th><b>#</b></th>
+                    <th><b>Train Status</b></th>
+                    <th><b>Action</b></th>
                 </tr>
             </thead>
             <tbody>
