@@ -134,7 +134,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <input type="text" name="inputs[0]['name']" id="" class="form-control">
+                        <input type="text" name="inputs[0]['name']" placeholder="Station Name" id="" class="form-control">
                     </td>
                 </tr>
             </table>
