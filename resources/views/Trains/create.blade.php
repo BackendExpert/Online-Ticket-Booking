@@ -127,7 +127,7 @@
             <br>
             <hr><br>
 
-            <div class="row">
+            {{-- <div class="row">
                 <div class="col-lg-4">
                     <label for="Train Name">Station</label><br>
                     <input type="text" name="station" id="" class="form-control">
@@ -140,7 +140,7 @@
                     <label for="Train Name">Departure At</label><br>
                     <input type="time" name="time_departure" id="" class="form-control">
                 </div>
-            </div>
+            </div> --}}
 
             <br><br>         
 
