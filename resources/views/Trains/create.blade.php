@@ -181,7 +181,7 @@
             `
             <tr>
                 <td>
-                        
+                    <input type="text" name="input[`+i+`][station]"    
                 </td>
             </tr>`
         );
