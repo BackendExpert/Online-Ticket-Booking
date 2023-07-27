@@ -18,10 +18,10 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach ($train as $tra)
+                @foreach ($trains as $train)
                     <tr>
                         <td>1</td>
-                        <td>{{ $tra->train_name }}</td>
+                        <td>{{ $train->train_name }}</td>
                     </tr>
                 @endforeach
                 
