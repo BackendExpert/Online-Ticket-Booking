@@ -168,9 +168,9 @@
 
 <script>
     var i = 0;
-    $('add').click(function() {
+    $('#add').click(function() {
         ++i;
-        $('table').append(
+        $('#table').append(
             `
             <tr>
                 <td>
