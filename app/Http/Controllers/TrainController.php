@@ -19,7 +19,8 @@ class TrainController extends Controller
 
         $train = Train::all();
         $trainStops = TrainStops::all();
-        
+        return view('Trains.index', compact('train', 'trainStops'));
+
 
 
     }
