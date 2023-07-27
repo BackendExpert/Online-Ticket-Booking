@@ -30,7 +30,6 @@
                         <td>{{ $train->departure_time }}</td>
                         <td>{{ $train->arrival_station }}</td>
                         <td>{{ $train->arrival_time }}</td>
-                        <td>{{ $train->weekly_schedule }}</td>
                         <td>
                             @php
                                 $schedule = json_decode($train->weekly_schedule);
@@ -49,6 +48,7 @@
                                 }
                             @endphp
                         </td>
+                        <td></td>
                     </tr>
                 @endforeach
                 
