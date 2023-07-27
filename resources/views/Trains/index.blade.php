@@ -42,7 +42,7 @@
                         <td>
                             @php
                                 if($train->is_active == 1){
-                                    echo "";
+                                    echo "<h3 class='badge bg-secondary'></h3>";
                                 }
                             @endphp
                         </td>
