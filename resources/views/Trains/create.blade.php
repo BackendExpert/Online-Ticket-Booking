@@ -181,7 +181,7 @@
             `
             <tr>
                 <td>
-                    <input type="text" name="input[`+i+`][station]"    
+                    <input type="text" name="input[`+i+`][station]" placeholder="Station Name"   
                 </td>
             </tr>`
         );
