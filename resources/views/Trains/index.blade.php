@@ -12,7 +12,7 @@
                 <tr>
                     <th><b>#</b></th>
                     <th><b>Train Name</b></th>
-                    <th><b>Station</b></th>
+                    <th><b>Departure Station</b></th>
                     <th><b>#</b></th>
                     <th><b>#</b></th>
                 </tr>
@@ -22,6 +22,7 @@
                     <tr>
                         <td><b>{{ $loop->iteration }}</b></td>
                         <td>{{ $train->train_name }}</td>
+                        <td>{{ $train->departure_station }}</td>
                     </tr>
                 @endforeach
                 
