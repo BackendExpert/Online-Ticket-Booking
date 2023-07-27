@@ -149,16 +149,20 @@
           
         </form>
     </div>
+
+
 @endsection
-
-
 <script>
     var i = 0;
     $('#add').click(function()){
         ++i;
         $('#table').append(
             `
-            HIiiiii
+            <tr>
+                <td>
+                    <input type="text" name="input[`+i+`][name]" placeholder="Station Name" class="form-control">
+
             ` );
-    }
+    });
 </script>
+
