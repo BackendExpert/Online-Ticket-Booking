@@ -177,5 +177,8 @@
     var i =0;
     $('#add').click(function()){
         ++i;
+        $('#table').append(
+
+        );
     }
 </script>
