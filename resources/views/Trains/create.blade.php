@@ -127,26 +127,25 @@
             <br>
             <hr><br>
 
-            <table class="table">
-                <thead>
-                    <tr>
-                        <th>Station</th>
-                        <th>Arrival Time</th>
-                        <th>Departure Time</th>
-                        <th></th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td><input type="text" name="inputs[0]['station']" id="" class="form-control"></td>
-                        <td></td>
-                        <td></td>
-                        <td>
-                            <button class="btn btn-primary" name="add" id="add">Add More Stations</button>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+            <div id="repeater-container">
+                <!-- Initial row -->
+                <div class="repeater-row">
+                    <div class="col-lg-3">
+                        <input type="text" name="field_name[]" placeholder="Field Name" class="form-control">
+                    </div>
+                    <div class="col-lg-3">
+                        <input type="text" name="field_value[]" placeholder="Field Value" class="form-control">
+                    </div>
+                    <div class="col-lg-3">
+                        <input type="text" name="field_value[]" placeholder="Field Value" class="form-control">
+                    </div>
+                    <div class="col-lg-3">
+                        <button type="button" class="remove-row">Remove</button>
+                    </div>                    
+                </div>
+            </div>
+        
+            <button type="button" id="add-row">Add Row</button>
 
             {{-- <div class="row">
                 <div class="col-lg-4">
@@ -174,21 +173,26 @@
 
 
 <script>
-    var i =0;
-    $('#add').click(function()){
-        ++i;
-        $('#table').append(
-            `
-            <tr>
-                <td>
-                    <input type="text" name="input[`+i+`][station]" placeholder="Station Name"  class="form-control">
-                </td>
-                <td>
-                    <button type="button" class="btn btn-danger remove-table-row">Remove</button>  
-                </td>
-            </tr>`
-        );
+document.addEventListener("DOMContentLoaded", function () {
+    const addRowButton = document.getElementById("add-row");
+    const repeaterContainer = document.getElementById("repeater-container");
 
-        $(document).on('click','')
-    }
+    addRowButton.addEventListener("click", function () {
+        const repeaterRow = document.createElement("div");
+        repeaterRow.classList.add("repeater-row");
+        repeaterRow.innerHTML = `
+            <input type="text" name="field_name[]" placeholder="Field Name">
+            <input type="text" name="field_value[]" placeholder="Field Value">
+            <button type="button" class="remove-row">Remove</button>
+        `;
+
+        repeaterContainer.appendChild(repeaterRow);
+    });
+
+    repeaterContainer.addEventListener("click", function (event) {
+        if (event.target.classList.contains("remove-row")) {
+            event.target.parentNode.remove();
+        }
+    });
+});
 </script>
