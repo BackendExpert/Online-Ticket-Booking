@@ -1,5 +1,7 @@
 @extends('layouts.dash')
 
 @section('content')
-    .admin-c
+    <div class="admin-card">
+        Train
+    </div>
 @endsection
