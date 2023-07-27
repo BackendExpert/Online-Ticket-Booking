@@ -127,44 +127,7 @@
             <br>
             <hr><br>
 
-            <div id="repeater-container">
-                <!-- Initial row -->
-                <div class="repeater-row">
-                    <div class="row">
-                        <div class="col-lg-3">
-                            <input type="text" name="field_name[]" placeholder="Field Name" class="form-control">
-                        </div>
-                        <div class="col-lg-3">
-                            <input type="text" name="field_value[]" placeholder="Field Value" class="form-control">
-                        </div>
-                        <div class="col-lg-3">
-                            <input type="text" name="field_value[]" placeholder="Field Value" class="form-control">
-                        </div>
-                        <div class="col-lg-3">
-                            <button type="button" class="btn btn-danger remove-row">Remove</button>
-                        </div>   
-                    </div>
-                </div>
-            </div>
-        
-            <button type="button" id="add-row" class="btn btn-primary">Add Row</button>
-
-            {{-- <div class="row">
-                <div class="col-lg-4">
-                    <label for="Train Name">Station</label><br>
-                    <input type="text" name="station" id="" class="form-control">
-                </div>
-                <div class="col-lg-4">
-                    <label for="Train Name">Arrival At</label><br>
-                    <input type="time" name="time_arrival" id="" class="form-control">
-                </div>
-                <div class="col-lg-4">
-                    <label for="Train Name">Departure At</label><br>
-                    <input type="time" name="time_departure" id="" class="form-control">
-                </div>
-            </div> --}}
-
-            <br><br>         
+            <br><br>
 
             <input type="submit" value="Add Train" class="btn btn-success" style="width: 100%;">
 
@@ -175,37 +138,5 @@
 
 
 <script>
-document.addEventListener("DOMContentLoaded", function () {
-    const addRowButton = document.getElementById("add-row");
-    const repeaterContainer = document.getElementById("repeater-container");
 
-    addRowButton.addEventListener("click", function () {
-        const repeaterRow = document.createElement("div");
-        repeaterRow.classList.add("repeater-row");
-        repeaterRow.innerHTML = `
-        <div class="row">
-                        <div class="col-lg-3">
-                            <input type="text" name="field_name[]" placeholder="Field Name" class="form-control">
-                        </div>
-                        <div class="col-lg-3">
-                            <input type="text" name="field_value[]" placeholder="Field Value" class="form-control">
-                        </div>
-                        <div class="col-lg-3">
-                            <input type="text" name="field_value[]" placeholder="Field Value" class="form-control">
-                        </div>
-                        <div class="col-lg-3">
-                            <button type="button" class="btn btn-danger remove-row">Remove</button>
-                        </div>   
-                    </div>
-        `;
-
-        repeaterContainer.appendChild(repeaterRow);
-    });
-
-    repeaterContainer.addEventListener("click", function (event) {
-        if (event.target.classList.contains("remove-row")) {
-            event.target.parentNode.remove();
-        }
-    });
-});
 </script>
