@@ -127,6 +127,14 @@
             <br>
             <hr><br>
 
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Station</th>
+                    </tr>
+                </thead>
+            </table>
+
             {{-- <div class="row">
                 <div class="col-lg-4">
                     <label for="Train Name">Station</label><br>
