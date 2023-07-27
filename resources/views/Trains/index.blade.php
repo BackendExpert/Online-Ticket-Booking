@@ -22,13 +22,9 @@
                     <tr>
                         <td>1</td>
                         <td>{{ $tra->train_name }}</td>
-                        
-                        @foreach ($trainStops as $stop)
-                            <td>{{ $stop->station }}</td>
-                        @endforeach
+                    </tr>
                 @endforeach
-
-                </tr>
+                
             </tbody>
         </table>
 
