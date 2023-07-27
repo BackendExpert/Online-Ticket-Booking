@@ -10,7 +10,12 @@
 
         @foreach ($all_trains as $train)
             {{ $train->train_name }} <br>
-            <p style="color: red;"> {{ $train->train_stops_all->time_arrival }} </p>
+            {{-- <p style="color: red;"> {{ $train->train_stops_all->time_arrival }} </p> --}}
+
+            @foreach ($train as $item)
+                
+            @endforeach
+
         @endforeach
 
     </div>
