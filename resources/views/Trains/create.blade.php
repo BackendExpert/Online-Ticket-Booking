@@ -152,9 +152,11 @@
 
 
 @endsection
+
+
 <script>
     var i = 0;
-    $('#add').click(function()){
+    $('#add').click(function(){
         ++i;
         $('#table').append(
             `
@@ -165,8 +167,8 @@
                 <td>
                     <button type="button" class="btn btn-danger remove-table-row">Remove</button>
                 </td>
-
-            ` );
+            <tr>`);
     });
+
 </script>
 
