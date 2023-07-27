@@ -102,7 +102,8 @@ class TrainController extends Controller
      */
     public function show(string $id)
     {
-        //
+        $train = Train::find($id);
+        return view('Trains.show')->with('train', $train);
     }
 
     /**
