@@ -19,7 +19,9 @@
             </thead>
             <tbody>
                 @foreach ($train as $tra)
-                    {{ $tra->train_name }} <br>
+                    <tr>
+                        <td>{{ $tra->train_name }}</td>
+                    </tr>
                 @endforeach
             </tbody>
         </table>
