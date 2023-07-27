@@ -141,13 +141,13 @@
                             <input type="text" name="field_value[]" placeholder="Field Value" class="form-control">
                         </div>
                         <div class="col-lg-3">
-                            <button type="button" class="remove-row">Remove</button>
+                            <button type="button" class="btn btn-danger remove-row">Remove</button>
                         </div>   
                     </div>
                 </div>
             </div>
         
-            <button type="button" id="add-row">Add Row</button>
+            <button type="button" id="add-row" class="btn btn-primary">Add Row</button>
 
             {{-- <div class="row">
                 <div class="col-lg-4">
