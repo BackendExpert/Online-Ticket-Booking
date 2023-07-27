@@ -39,7 +39,11 @@
                                 {{ $days }}<br>
                             @endforeach
                         </td>
-                        <td></td>
+                        <td>
+                            @php
+                                if()
+                            @endphp
+                        </td>
                     </tr>
                 @endforeach
                 
