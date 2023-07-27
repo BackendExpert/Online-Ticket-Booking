@@ -184,9 +184,11 @@
                     <input type="text" name="input[`+i+`][station]" placeholder="Station Name"  class="form-control">
                 </td>
                 <td>
-                
+                    <button type="button" class="btn btn-danger remove-table-row">Remove</button>  
                 </td>
             </tr>`
         );
+
+        $(document).on('click','')
     }
 </script>
