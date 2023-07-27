@@ -160,7 +160,11 @@
             `
             <tr>
                 <td>
-                    <input type="text" name="input[`+i+`][name]" placeholder="Station Name" class="form-control">
+                    <input type="text" name="input[`+i+`][name]" placeholder="Station Name" class="form-control" />
+                </td>
+                <td>
+                    <button type="button" class="btn btn-danger remove-table-row">Remove</button>
+                </td>
 
             ` );
     });
