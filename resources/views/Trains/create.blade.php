@@ -131,6 +131,9 @@
                 <thead>
                     <tr>
                         <th>Station</th>
+                        <th>Arrival Time</th>
+                        <th>Departure Time</th>
+                        <th></th>
                     </tr>
                 </thead>
             </table>
