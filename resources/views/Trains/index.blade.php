@@ -23,6 +23,14 @@
                         <td><b>{{ $loop->iteration }}</b></td>
                         <td>{{ $train->train_name }}</td>
                         <td>{{ $train->departure_station }}</td>
+                        <td>{{ $train->departure_station }}</td>
+                        <td>{{ $train->departure_station }}</td>
+                        <td>{{ $train->departure_station }}</td>
+                        <td>{{ $train->departure_station }}</td>
+                        <td>{{ $train->departure_station }}</td>
+                        <td>{{ $train->departure_station }}</td>
+                        <td>{{ $train->departure_station }}</td>
+                        <td>{{ $train->departure_station }}</td>
                     </tr>
                 @endforeach
                 
