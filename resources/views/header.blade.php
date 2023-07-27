@@ -17,7 +17,8 @@
 
     <!-- Styles -->
 
-    <link rel="icon" type="image/x-icon" href="https://w7.pngwing.com/pngs/99/669/png-transparent-airplane-flight-airline-ticket-ticket-text-logo-transport-thumbnail.png">
+    <link rel="icon" type="image/x-icon"
+        href="https://w7.pngwing.com/pngs/99/669/png-transparent-airplane-flight-airline-ticket-ticket-text-logo-transport-thumbnail.png">
 
     <script src="{{ asset('js/script.js') }}"></script>
 
@@ -31,5 +32,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous">
     </script>
-</head>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+</head>

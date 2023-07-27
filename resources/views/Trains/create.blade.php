@@ -1,7 +1,11 @@
 @extends('layouts.dash')
 
+
+
 @if (Auth::user()->role == 3)
-<script>window.location = "/client";</script>
+    <script>
+        window.location = "/client";
+    </script>
 @endif
 
 @section('content')
@@ -23,7 +27,7 @@
                 @endforeach
             </ul>
         @endif
-        
+
 
         <form action="{{ url('Trains') }}" method="POST">
             @csrf
@@ -58,33 +62,37 @@
                 <label for="days"><b>Select Days</b></label> <br><br>
                 <div class="col-lg-3">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="Monday" name="weekly_schedule[]" id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="Monday" name="weekly_schedule[]"
+                            id="flexCheckDefault">
                         <label class="form-check-label" for="Monday">
-                          Monday
+                            Monday
                         </label>
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="Tuesday" name="weekly_schedule[]" id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="Tuesday" name="weekly_schedule[]"
+                            id="flexCheckDefault">
                         <label class="form-check-label" for="Tuesday">
-                          Tuesday
+                            Tuesday
                         </label>
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="Wednesday" name="weekly_schedule[]" id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="Wednesday" name="weekly_schedule[]"
+                            id="flexCheckDefault">
                         <label class="form-check-label" for="Wednesday">
-                          Wednesday
+                            Wednesday
                         </label>
                     </div>
                 </div>
                 <div class="col-lg-3">
                     <div class="form-check">
-                        <input class="form-check-input" type="checkbox" value="Thursday" name="weekly_schedule[]" id="flexCheckDefault">
+                        <input class="form-check-input" type="checkbox" value="Thursday" name="weekly_schedule[]"
+                            id="flexCheckDefault">
                         <label class="form-check-label" for="Thursday">
-                          Thursday
+                            Thursday
                         </label>
                     </div>
                 </div>
@@ -93,9 +101,10 @@
                 <div class="col-lg-3">
                     <div class="col-lg-3">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="Friday" name="weekly_schedule[]" id="flexCheckDefault">
+                            <input class="form-check-input" type="checkbox" value="Friday" name="weekly_schedule[]"
+                                id="flexCheckDefault">
                             <label class="form-check-label" for="Friday">
-                              Friday
+                                Friday
                             </label>
                         </div>
                     </div>
@@ -103,9 +112,10 @@
                 <div class="col-lg-3">
                     <div class="col-lg-3">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="Saturday" name="weekly_schedule[]" id="flexCheckDefault">
+                            <input class="form-check-input" type="checkbox" value="Saturday" name="weekly_schedule[]"
+                                id="flexCheckDefault">
                             <label class="form-check-label" for="Saturday">
-                             Saturday
+                                Saturday
                             </label>
                         </div>
                     </div>
@@ -113,9 +123,10 @@
                 <div class="col-lg-3">
                     <div class="col-lg-3">
                         <div class="form-check">
-                            <input class="form-check-input" type="checkbox" value="Sunday" name="weekly_schedule[]" id="flexCheckDefault">
+                            <input class="form-check-input" type="checkbox" value="Sunday" name="weekly_schedule[]"
+                                id="flexCheckDefault">
                             <label class="form-check-label" for="Sunday">
-                              Sunday
+                                Sunday
                             </label>
                         </div>
                     </div>
@@ -134,7 +145,8 @@
                 </tr>
                 <tr>
                     <td>
-                        <input type="text" name="inputs[0]['name']" placeholder="Station Name" id="" class="form-control">
+                        <input type="text" name="inputs[0]['name']" placeholder="Station Name" 
+                            class="form-control">
                     </td>
                     <td>
                         <button type="button" name="add" id="add" class="btn btn-primary">Add More Stations</button>
@@ -146,7 +158,7 @@
 
             <input type="submit" value="Add Train" class="btn btn-success" style="width: 100%;">
 
-          
+
         </form>
     </div>
 
@@ -156,19 +168,17 @@
 
 <script>
     var i = 0;
-    $('add').click(function(){
+    $('add').click(function() {
         ++i;
         $('table').append(
             `
             <tr>
                 <td>
-                    <input type="text" name="input[`+ i +`][station]" placeholder="Station Name" class="form-control" />
+                    <input type="text" name="input[` + i + `][station]" placeholder="Station Name" class="form-control" />
                 </td>
                 <td>
                     <button type="button" class="btn btn-danger remove-table-row">Remove</button>
                 </td>
             <tr>`);
     });
-
 </script>
-
