@@ -138,7 +138,7 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td></td>
+                        <td><input type="text" name="inputs[0]['station']" id=""></td>
                     </tr>
                 </tbody>
             </table>
