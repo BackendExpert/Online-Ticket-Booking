@@ -41,7 +41,9 @@
                         </td>
                         <td>
                             @php
-                                if()
+                                if($train->is_active == 1){
+                                    echo "";
+                                }
                             @endphp
                         </td>
                     </tr>
