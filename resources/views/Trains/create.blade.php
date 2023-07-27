@@ -171,3 +171,11 @@
         </form>
     </div>
 @endsection
+
+
+<script>
+    var i =0;
+    $('#add').click(function()){
+        ++i;
+    }
+</script>
