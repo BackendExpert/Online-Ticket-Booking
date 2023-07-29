@@ -152,9 +152,6 @@
                         <div class="col-lg-3">
                             <input type="text" name="data[]" placeholder="Enter data" class="form-control">
                         </div>
-                        <div class="col-lg-3">
-                            <button type="button" class="btn btn-sm btn-danger remove-btn">Remove</button>
-                        </div>
                     </div>
                 </div>
               </div>
