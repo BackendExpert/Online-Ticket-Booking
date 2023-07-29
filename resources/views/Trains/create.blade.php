@@ -162,7 +162,6 @@
 
             <input type="submit" value="Add Train" class="btn btn-success" style="width: 100%;">
 
-
         </form>
     </div>
 
