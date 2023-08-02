@@ -34,8 +34,7 @@
                         <td>{{ $train->departure_station }}</td>
                         <td>{{ $train->departure_time }}</td>
                         <td>{{ $train->arrival_station }}</td>
-                        <td>{{ $train->arrival_time }}</td>
-                        <td><a href="{{ url('/Trains/' . $train->id . '/stations') }}">Add Stations</a></td>
+                        <td>{{ $train->arrival_time }}</td>                        
                         <td>
                             @php
                                 $schedule = json_decode($train->weekly_schedule);
@@ -43,7 +42,7 @@
                             @foreach ($schedule as $days)
                                 {{ $days }}<br>
                             @endforeach
-                        </td>
+                        </td>                        
                         <td>
                             @php
                                 if($train->is_active == 1){
