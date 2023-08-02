@@ -12,8 +12,4 @@ class Train extends Model
     protected $fillable = ['train_name', 'departure_station', 'departure_time', 'arrival_station', 'arrival_time', 'weekly_schedule', 'stops', 'is_active', 'created_at', 'updated_at'];
     use HasFactory;
 
-    public function TrainStops()
-    {
-        return $this->hasMany('TrainStops');
-    }
 }
