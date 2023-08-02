@@ -179,13 +179,13 @@
         '<div class="repeater-item">' +
         '<div class="row">'+
         '<div class="col-lg-3">'+
-        '<input type="text" name="data[]" placeholder="Enter data" class="form-control">' +
+        '<input type="text" name="station[]" placeholder="Enter data" class="form-control">' +
         '</div>'+
         '<div class="col-lg-3">'+
-        '<input type="text" name="data[]" placeholder="Enter data" class="form-control">' +
+        '<input type="text" name="time_arrival[]" placeholder="Enter data" class="form-control">' +
         '</div>'+
         '<div class="col-lg-3">'+
-        '<input type="text" name="data[]" placeholder="Enter data" class="form-control">' +
+        '<input type="text" name="time_departure[]" placeholder="Enter data" class="form-control">' +
         '</div>'+
         '<div class="col-lg-3">'+
         '<button type="button" class="btn btn-sm btn-danger remove-btn">Remove</button>' +
