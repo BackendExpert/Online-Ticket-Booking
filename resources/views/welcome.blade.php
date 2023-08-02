@@ -69,6 +69,7 @@
                     @auth
                         <h2>Welcome Back {{ Auth::user()->name }}.</h2>
                         <a href="{{ url('admin') }}"><button class="book-btn">Dashboard</button></a>
+                        <a href=""><button class="book-btn">Book a Ticket</button></a>
                     @else
                         <a href="{{ route('login') }}"><button class="book-btn">Book a Ticket Now</button></a>
                     @endauth
