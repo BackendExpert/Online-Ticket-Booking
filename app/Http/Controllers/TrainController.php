@@ -44,11 +44,6 @@ class TrainController extends Controller
             'weekly_schedule' => 'required',
             'stops' => 'required|string',
             'is_active' => 'required|string',
-            'station' => 'required|string',
-
-            'time_arrival' => 'required|string',
-            'time_departure' => 'required|string',
-
         ]);
 
         $train = New Train;
@@ -64,16 +59,6 @@ class TrainController extends Controller
         $train->save();
 
         // dd($train);
-
-        $train_stops = New TrainStops;
-        $train_stops->train_id = $train->id;
-        $train_stops->station = $request->station;     
-        $train_stops->time_arrival = $request->time_arrival;      
-        $train_stops->time_departure = $request->time_departure;   
-
-        // dd($train_stops);
-
-        $train_stops->save();
 
         // $train = Train::create([
         //     'train_name' => $request->input('train_name'),
