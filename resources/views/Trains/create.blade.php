@@ -147,10 +147,10 @@
                             <input type="text" name="station[]" placeholder="Station Name" class="form-control">
                         </div>
                         <div class="col-lg-3">
-                            <input type="time" name="time_departure[]" placeholder="departure" class="form-control">
+                            <input type="time" name="time_arrival[]" placeholder="Arrival Time" class="form-control">
                         </div>
                         <div class="col-lg-3">
-                            <input type="time" name="time_departure[]" placeholder="Enter data" class="form-control">
+                            <input type="time" name="time_departure[]" placeholder="Departure Time" class="form-control">
                         </div>
                     </div>
                 </div>
