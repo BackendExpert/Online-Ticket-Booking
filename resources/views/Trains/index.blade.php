@@ -22,6 +22,7 @@
                     <th><b>Arrival Time</b></th>
                     <th><b>Weekly Schedule</b></th>
                     <th><b>Train Status</b></th>
+                    <th><b>Add Stations</b></th>
                     <th><b>Action</b></th>
                 </tr>
             </thead>
@@ -34,6 +35,7 @@
                         <td>{{ $train->departure_time }}</td>
                         <td>{{ $train->arrival_station }}</td>
                         <td>{{ $train->arrival_time }}</td>
+                        <td><a href="{{ url('/Trains/' . $train->id . '/stations') }}">Add Stations</a></td>
                         <td>
                             @php
                                 $schedule = json_decode($train->weekly_schedule);
