@@ -49,4 +49,4 @@ Route::resource("/profile", ProfileController::class);
 
 Route::resource('/Trains', TrainController::class);
 
-Route::get("/stations", [TrainController::class, ''])
+Route::get("/stations", [TrainController::class, 'stations']);
