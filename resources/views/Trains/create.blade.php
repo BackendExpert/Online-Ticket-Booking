@@ -135,29 +135,7 @@
             </div><br><br>
             <input type="hidden" name="is_active" value="1">
 
-            <br>
-            <hr><br>
-
-            <div id="repeater">
-                <b>Add Stations</b> <br><br>
-                <div class="repeater-item">
-                    
-                    <div class="row">
-                        <div class="col-lg-3">
-                            <input type="text" name="station[]" placeholder="Station Name" class="form-control">
-                        </div>
-                        <div class="col-lg-3">
-                            <input type="time" name="time_arrival[]" placeholder="Arrival Time" class="form-control">
-                        </div>
-                        <div class="col-lg-3">
-                            <input type="time" name="time_departure[]" placeholder="Departure Time" class="form-control">
-                        </div>
-                    </div>
-                </div>
-              </div>
-              <br>
-              <button type="button" class="btn btn-sm btn-primary" id="add-btn">Add More Startions</button>
-
+           
             <br><br>
 
             <input type="submit" value="Add Train" class="btn btn-success" style="width: 100%;">
@@ -169,37 +147,3 @@
 @endsection
 
 
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-  $(document).ready(function() {
-    // Add new repeater item
-    $('#add-btn').click(function() {
-      var repeaterItem = 
-        '<br>'+
-        '<div class="repeater-item">' +
-        '<div class="row">'+
-        '<div class="col-lg-3">'+
-        '<input type="text" name="station[]" placeholder="Station Name" class="form-control">' +
-        '</div>'+
-        '<div class="col-lg-3">'+
-        '<input type="time" name="time_arrival[]" placeholder="Arrival Time" class="form-control">' +
-        '</div>'+
-        '<div class="col-lg-3">'+
-        '<input type="time" name="time_departure[]" placeholder="Departure Time" class="form-control">' +
-        '</div>'+
-        '<div class="col-lg-3">'+
-        '<button type="button" class="btn btn-sm btn-danger remove-btn">Remove</button>' +
-        '</div>'
-        '</div>'+
-        '</div>';
-
-        
-      $('#repeater').append(repeaterItem);
-    });
-
-    // Remove repeater item
-    $(document).on('click', '.remove-btn', function() {
-      $(this).closest('.repeater-item').remove();
-    });
-  });
-</script>
