@@ -82,6 +82,10 @@ class TrainController extends Controller
 
     }
 
+    public function station_add(string $id){
+
+    }
+
     /**
      * Display the specified resource.
      */
