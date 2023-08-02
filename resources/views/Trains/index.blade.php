@@ -53,7 +53,7 @@
                                 }
                             @endphp
                         </td>
-                        <td><a href="{{ url('/Trains/' . $train->id . '/stations') }}">Add</a></td>
+                        <td><a href="{{ url('/Trains/' . $train->id . '/stations') }}"><button class="btn btn-success"><i class="fas fa-plus"></i>  Station</button></a></td>
                         <td>
                             <a href="{{ url('/Trains/' . $train->id) }}" title="View Train Route"><button class="btn btn-info btn-sm"><i class="fa fa-eye" aria-hidden="true"></i> View</button></a>
                             
