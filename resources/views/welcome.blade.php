@@ -67,7 +67,7 @@
                 </div>
                 <div class="main-body">
                     @auth
-                        
+                        Welcome Back {{ Auth::user()->name }}.
                     @else
                         <a href="{{ route('login') }}"><button class="book-btn">Book a Ticket Now</button></a>
                     @endauth
