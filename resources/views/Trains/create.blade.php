@@ -182,10 +182,10 @@
         '<input type="text" name="station[]" placeholder="Station Name" class="form-control">' +
         '</div>'+
         '<div class="col-lg-3">'+
-        '<input type="text" name="time_arrival[]" placeholder="Arrival Time" class="form-control">' +
+        '<input type="time" name="time_arrival[]" placeholder="Arrival Time" class="form-control">' +
         '</div>'+
         '<div class="col-lg-3">'+
-        '<input type="text" name="time_departure[]" placeholder="Departure Time" class="form-control">' +
+        '<input type="time" name="time_departure[]" placeholder="Departure Time" class="form-control">' +
         '</div>'+
         '<div class="col-lg-3">'+
         '<button type="button" class="btn btn-sm btn-danger remove-btn">Remove</button>' +
