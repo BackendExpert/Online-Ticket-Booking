@@ -144,13 +144,13 @@
                     
                     <div class="row">
                         <div class="col-lg-3">
-                            <input type="text" name="[]" placeholder="Enter data" class="form-control">
+                            <input type="text" name="station[]" placeholder="Enter data" class="form-control">
                         </div>
                         <div class="col-lg-3">
-                            <input type="time" name="data[]" placeholder="Enter data" class="form-control">
+                            <input type="time" name="time_arrival[]" placeholder="Enter data" class="form-control">
                         </div>
                         <div class="col-lg-3">
-                            <input type="time" name="data[]" placeholder="Enter data" class="form-control">
+                            <input type="time" name="time_departure[]" placeholder="Enter data" class="form-control">
                         </div>
                     </div>
                 </div>
