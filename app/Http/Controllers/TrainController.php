@@ -83,7 +83,7 @@ class TrainController extends Controller
     }
 
     public function stations(string $id){
-        
+        return view('Trains.stations');
     }
 
     /**
