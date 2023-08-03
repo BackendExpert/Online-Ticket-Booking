@@ -129,7 +129,7 @@
             @endif
             
             <a href="{{url('/ViewTrain')}}" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
-                class="fas fa-train me-2"></i>My Bookings</a>
+                class="fas fa-train me-2"></i>Available Trains</a>
 
             <a href="{{url('/mybooking')}}" class="list-group-item list-group-item-action bg-transparent second-text fw-bold"><i
                 class="fa fa-ticket me-2"></i>My Bookings</a>
