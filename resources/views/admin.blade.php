@@ -51,7 +51,7 @@
         <div class="admin-card">
             <div class="row">
                 <div class="col-lg-4">
-                    <div class="card text-bg-success mb-3" style="max-width: 18rem;">
+                    <div class="card text-bg-success mb-3" style="max-width: 100%;">
                         <div class="card-header">My Tickets</div>
                         <div class="card-body">
                             <div class="row">
@@ -66,7 +66,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="card text-bg-success mb-3" style="max-width: 18rem;">
+                    <div class="card text-bg-success mb-3" style="max-width: 100%;">
                         <div class="card-header">My Tickets</div>
                         <div class="card-body">
                             <div class="row">
@@ -81,7 +81,7 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="card text-bg-success mb-3" style="max-width: 18rem;">
+                    <div class="card text-bg-success mb-3" style="max-width: 100%;">
                         <div class="card-header">My Tickets</div>
                         <div class="card-body">
                             <div class="row">
@@ -99,7 +99,7 @@
 
             <div class="row">
                 <div class="col-lg-3">
-                    <div class="card text-bg-success mb-3" style="max-width: 18rem;">
+                    <div class="card text-bg-success mb-3" style="max-width: 100%;">
                         <div class="card-header">My Tickets</div>
                         <div class="card-body">
                             <div class="row">
@@ -114,7 +114,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+                    <div class="card text-bg-primary mb-3" style="max-width: 100%;">
                         <div class="card-header">Last Re-Charge</div>
                         <div class="card-body">
                             <div class="row">
@@ -129,7 +129,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="card text-bg-info mb-3" style="max-width: 18rem;">
+                    <div class="card text-bg-info mb-3" style="max-width: 100%;">
                         <div class="card-header">Payments</div>
                         <div class="card-body">
                             <div class="row">
@@ -144,7 +144,7 @@
                     </div>
                 </div>
                 <div class="col-lg-3">
-                    <div class="card text-bg-warning mb-3" style="max-width: 18rem;">
+                    <div class="card text-bg-warning mb-3" style="max-width: 100%;">
                         <div class="card-header">My Balance</div>
                         <div class="card-body">
                             <div class="row">
