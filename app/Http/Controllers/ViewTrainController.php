@@ -9,6 +9,6 @@ class ViewTrainController extends Controller
 {
     public function viewAllTrains(){
         $trains = Train::all();
-        
+        return view('ViewTrain.index')->with('trains', $trains);
     }
 }
