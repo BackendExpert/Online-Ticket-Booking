@@ -97,6 +97,8 @@
                 </div>
             </div>
 
+            <hr>
+
             <div class="row">
                 <div class="col-lg-3">
                     <div class="card text-bg-success mb-3" style="max-width: 100%;">
