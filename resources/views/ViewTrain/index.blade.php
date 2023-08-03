@@ -2,6 +2,6 @@
 
 @section('content')
     <div class="admin-card">
-        Trains
+        <h2>All Available Trains</h2>
     </div>
 @endsection
