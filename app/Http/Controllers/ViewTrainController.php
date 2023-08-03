@@ -7,6 +7,6 @@ use Illuminate\Http\Request;
 class ViewTrainController extends Controller
 {
     public function viewAllTrains(){
-        view('')
+        view('ViewTrain.index');
     }
 }
