@@ -23,7 +23,7 @@
 </div> --}}
 
 
-        <div class="admin-card">
+        {{-- <div class="admin-card">
             <div class="row">
                 <div class="col-lg-4"><i class='fas fa-user-tie icon-admin'></i></div>
                 <div class="col-lg-6"><p class="title-card">Admins</p></div>
@@ -46,7 +46,7 @@
                 <div class="col-lg-6"><p class="title-card">Clients</p></div>
                 <div class="col-lg-2"><p class="body-card">50</p></div>
             </div>
-        </div>
+        </div> --}}
 
         <div class="row">
             <div class="col-lg-3">
