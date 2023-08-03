@@ -104,8 +104,16 @@
 
             @php
                 if(Auth::user()->role == 1){
-                    
-                }
+            @endphp
+            <a href="{{url('/admin')}}" class="list-group-item list-group-item-action bg-transparent second-text active"><i
+                    class="fas fa-tachometer-alt me-2"></i>Dashboard</a>
+            @php
+                }elseif(Auth::user()->role == 2){
+            @endphp
+            <a href="{{url('/admin')}}" class="list-group-item list-group-item-action bg-transparent second-text active"><i
+                    class="fas fa-tachometer-alt me-2"></i>Dashboard</a>
+            @php
+            }
             @endphp
 
             <a href="{{url('/admin')}}" class="list-group-item list-group-item-action bg-transparent second-text active"><i
