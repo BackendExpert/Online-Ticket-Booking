@@ -50,4 +50,4 @@ Route::resource("/profile", ProfileController::class);
 
 Route::resource('/Trains', TrainController::class);
 
-Route::get('/ViewTrain', [ViewTrainController::class, ])
+Route::get('/ViewTrain', [ViewTrainController::class, 'viewAllTrains']);
