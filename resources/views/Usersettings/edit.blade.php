@@ -25,7 +25,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-4">
-                    <label for="old_pass">Current Password : </label>
+                    <label for="new_pass">New Password : </label>
                 </div>
                 <div class="col-lg-8">
                     <input type="password" name="" id="" class="form-control">
@@ -33,7 +33,7 @@
             </div>
             <div class="row">
                 <div class="col-lg-4">
-                    <label for="old_pass">Current Password : </label>
+                    <label for="confram_new">Current Password : </label>
                 </div>
                 <div class="col-lg-8">
                     <input type="password" name="" id="" class="form-control">
