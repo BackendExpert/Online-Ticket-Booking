@@ -12,7 +12,7 @@
         <h4>Change Password</h4>
         <br>
 
-        <form action="{{ url('Usersettings') }}" method="POST">
+        <form action="{{ url('Usersettings/'.$member_settings->id.'/edit') }}" method="POST">
 
         </form>
 
