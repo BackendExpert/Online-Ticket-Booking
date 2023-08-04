@@ -24,9 +24,9 @@
     
     <div class="admin-card">
         <h2>Staff Dashboard</h2><hr>
-
+{{-- 
         User Name : <b>@php  echo auth()->user()->name;   @endphp</b> <br>
-        User Email : <b>@php  echo auth()->user()->email;   @endphp</b>
+        User Email : <b>@php  echo auth()->user()->email;   @endphp</b> --}}
 
         <div class="row">
             <div class="col-lg-3">
