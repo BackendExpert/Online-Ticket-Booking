@@ -11,6 +11,7 @@
         <a href="{{ url('Trains/create') }}"><button class="btn btn-success"><i class="fas fa-train"></i> Add Train</button></a>
 
         <br><br>
+        <div class="table-responsive">
         <table class="table">
             <thead class="table-primary">
                 <tr>
@@ -72,6 +73,7 @@
                 
             </tbody>
         </table>
+        </div>
 
 
 
