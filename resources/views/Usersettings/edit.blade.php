@@ -12,9 +12,9 @@
         <h4>Change Password</h4>
         <br>
 
-        <form action="{{ return redirect()->back() }}" method="POST">
+        <form action="{{ return redirect()->back(); }}" method="POST">
             @csrf
-            @method("POST")
+
             <div class="row">
                 <div class="col-lg-2">
                     <label for="old_pass">Current Password : </label>
