@@ -41,7 +41,7 @@
             </div>
             <br><br>
 
-            <input type="submit" value="Reset Password" class="btn btn-danger" >
+            <input type="submit" value="Reset Password" class="btn btn-danger">
         </form>
 
     </div>
