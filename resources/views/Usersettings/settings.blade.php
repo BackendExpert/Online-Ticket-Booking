@@ -1,7 +1,7 @@
 @extends('layouts.dash')
 
 @if (Auth::user()->id != $member_setting->id)
-    
+<script>window.location = "/client";</script>
 @endif
 
 @section('content')
