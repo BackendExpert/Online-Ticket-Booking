@@ -43,5 +43,8 @@
     <div class="admin-card">
         <h3><i class="fas fa-key"></i> Password Reset</h3>
         <hr><br>
+
+        <a href=""><button class="btn btn-danger"><i class="fas fa-key"></i> Password Reset </button></a>
+
     </div>
 @endsection
