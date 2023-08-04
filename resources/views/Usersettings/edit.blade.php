@@ -12,9 +12,9 @@
         <h4>Change Password</h4>
         <br>
 
-        <form action="{{ url('Usersettings/'.$member_settings->id.'/edit') }}" method="POST">
+        <form action="{{ url('Usersettings') }}" method="POST">
             @csrf
-            @method("PATCH")
+            @method("POST")
             <div class="row">
                 <div class="col-lg-2">
                     <label for="old_pass">Current Password : </label>
