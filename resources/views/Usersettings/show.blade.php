@@ -12,7 +12,9 @@
         <h4>Change Password</h4>
         <br>
 
-        
+        <form action="" method="POST">
+            
+        </form>
 
     </div>
 @endsection
