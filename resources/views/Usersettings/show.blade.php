@@ -12,8 +12,8 @@
         <h4>Change Password</h4>
         <br>
 
-        <form action="" method="POST">
-            
+        <form action="{{ url('Trains') }}" method="POST">
+
         </form>
 
     </div>
