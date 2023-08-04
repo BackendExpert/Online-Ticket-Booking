@@ -38,6 +38,7 @@
                 }
                 else{
                     echo "
+                        <input type='radio' name='role' value='1'>Admin <br>
                         <input type='radio' name='role' value='2'>Staff <br>
                         <input type='radio' name='role' value='3'>Client <br>
 
