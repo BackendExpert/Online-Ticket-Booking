@@ -15,7 +15,30 @@
         <form action="{{ url('Usersettings/'.$member_settings->id.'/edit') }}" method="POST">
             @csrf
 
-            <div class="row"></div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <label for="old_pass">Current Password : </label>
+                </div>
+                <div class="col-lg-8">
+                    <input type="password" name="" id="" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <label for="old_pass">Current Password : </label>
+                </div>
+                <div class="col-lg-8">
+                    <input type="password" name="" id="" class="form-control">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4">
+                    <label for="old_pass">Current Password : </label>
+                </div>
+                <div class="col-lg-8">
+                    <input type="password" name="" id="" class="form-control">
+                </div>
+            </div>
         </form>
 
     </div>
