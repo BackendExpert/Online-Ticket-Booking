@@ -1,6 +1,6 @@
 @extends('layouts.dash')
 
-@if (Auth::user()->id != $)
+@if (Auth::user()->id != $member_settings->id)
     
 @endif
 
