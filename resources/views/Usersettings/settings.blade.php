@@ -17,6 +17,7 @@
                 <h6> {{ $member_setting->name }} </h6>
             </div>
         </div>
+        <hr>
 
         
     </div>
