@@ -12,7 +12,7 @@
         <h4>Change Password</h4>
         <br>
 
-        <form action="{{ url('Trains') }}" method="POST">
+        <form action="{{ url('Usersettings') }}" method="POST">
 
         </form>
 
