@@ -45,7 +45,7 @@ class UsersettingController extends Controller
     public function edit(string $id)
     {
         $member_settings = Member::find($id);
-        return view('Usersettings.show')->with('member_settings', $member_settings);
+        return view('Usersettings.edit')->with('member_settings', $member_settings);
     }
 
     /**
