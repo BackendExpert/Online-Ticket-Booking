@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Member;
 use Illuminate\Http\Request;
 
 class UsersettingController extends Controller
@@ -43,7 +44,8 @@ class UsersettingController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        $user = Member::find($id);
+        return view('')
     }
 
     /**
