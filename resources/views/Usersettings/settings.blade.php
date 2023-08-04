@@ -6,6 +6,7 @@
 
 @section('content')
     <div class="admin-card">
-        <h2><i class="fa fa-gears"></i> Account Settings</h2>
+        <h3><i class="fa fa-gears"></i> Account Settings</h3>
+        <hr><br>
     </div>
 @endsection
