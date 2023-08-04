@@ -19,6 +19,7 @@ return new class extends Migration
             $table->longText('address')->default(0);
             $table->timestamp('email_verified_at')->nullable();
             $table->integer('role')->default(3); //Admin - 1, staff - 2, user - 3
+            $table->integer('twoFact')->default(0);
             $table->string('password');
             $table->rememberToken();
             $table->timestamps();
