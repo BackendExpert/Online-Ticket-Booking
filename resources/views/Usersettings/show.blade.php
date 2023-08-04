@@ -2,6 +2,6 @@
 
 @section('content')
     <div class="admin-card">
-        Account Settings
+        <h2>Account Settings</h2>
     </div>
 @endsection
