@@ -7,7 +7,6 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\UsersettingController;
-use App\Http\Controllers\VehicleController;
 use App\Http\Controllers\ViewTrainController;
 
 /*
@@ -53,4 +52,4 @@ Route::resource('/Trains', TrainController::class);
 
 Route::get('/ViewTrain', [ViewTrainController::class, 'viewAllTrains'])->name('ViewTrain');
 
-Route::get('/settings', UsersettingController::class, 'account_settings');
+Route::get('/settings', [UsersettingController::class, ]);
