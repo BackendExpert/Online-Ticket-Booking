@@ -10,10 +10,10 @@
         <hr><br>
 
         <div class="row">
-            <div class="col-lg-6">
+            <div class="col-lg-2">
                 <h5>Name : </h5>
             </div>
-            <div class="col-lg-6">
+            <div class="col-lg-10">
                 <h6> {{ $member_setting->name }} </h6>
             </div>
         </div>
