@@ -22,7 +22,7 @@
                 <div class="col-lg-8">
                     <input type="password" name="" id="" class="form-control">
                 </div>
-            </div>
+            </div><br>
             <div class="row">
                 <div class="col-lg-4">
                     <label for="new_pass">New Password : </label>
@@ -30,7 +30,7 @@
                 <div class="col-lg-8">
                     <input type="password" name="" id="" class="form-control">
                 </div>
-            </div>
+            </div><br>
             <div class="row">
                 <div class="col-lg-4">
                     <label for="confram_new">Current Password : </label>
