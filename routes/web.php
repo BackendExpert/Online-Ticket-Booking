@@ -53,3 +53,4 @@ Route::resource('/Trains', TrainController::class);
 
 Route::get('/ViewTrain', [ViewTrainController::class, 'viewAllTrains'])->name('ViewTrain');
 
+Route::get('/settings', UsersettingController::class, '')
