@@ -8,5 +8,7 @@
     <div class="admin-card">
         <h2>Account Settings</h2>
         <hr><br>
+
+        <h4>Change Password</h4>
     </div>
 @endsection
