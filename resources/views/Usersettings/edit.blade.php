@@ -12,16 +12,7 @@
         <h4>Change Password</h4>
         <br>
 
-        <form action="
-            @php
-                if(Auth::user()->role == 1){
-            @endphp  
-                {{ url('admin') }}
-            @php
-                }    
-            @endphp
-
-        " method="POST">
+        <form action="{{ return redirect()->back() }}" method="POST">
             @csrf
             @method("POST")
             <div class="row">
