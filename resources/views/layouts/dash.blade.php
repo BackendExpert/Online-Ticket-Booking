@@ -164,7 +164,7 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <li><a class="dropdown-item" href="{{ url('/profile/'.Auth::user()->id); }}">Profile</a></li>
-                            <li><a class="dropdown-item" href="{{ url('/Usersettings/'.Auth::user()->id.'/edit'); }}">Settings</a></li>
+                            <li><a class="dropdown-item" href="{{ url('/Usersettings/'.Auth::user()->id.'/settings'); }}">Settings</a></li>
                             <li><a class="dropdown-item" href="{{ route('logout') }}" onclick="event.preventDefault();
                                 document.getElementById('logout-form').submit();">
                    {{ __('Logout') }}</a>
