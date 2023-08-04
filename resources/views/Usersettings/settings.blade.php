@@ -18,6 +18,24 @@
             </div>
         </div>
         <hr>
+        <div class="row">
+            <div class="col-lg-2">
+                <h5>Email : </h5>
+            </div>
+            <div class="col-lg-10">
+                <h6> {{ $member_setting->email }} </h6>
+            </div>
+        </div>
+        <hr>
+        <div class="row">
+            <div class="col-lg-2">
+                <h5>Member since : </h5>
+            </div>
+            <div class="col-lg-10">
+                <h6> {{ $member_setting->created_at }} </h6>
+            </div>
+        </div>
+        <hr>
 
         
     </div>
