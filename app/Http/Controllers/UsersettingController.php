@@ -11,7 +11,7 @@ class UsersettingController extends Controller
      */
     public function index()
     {
-        //
+        
     }
 
     /**
