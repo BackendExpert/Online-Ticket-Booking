@@ -14,7 +14,7 @@
 
         <form action="{{ url('Usersettings/'.$member_settings->id.'/edit') }}" method="POST">
             @csrf
-
+            @method("PATCH")
             <div class="row">
                 <div class="col-lg-2">
                     <label for="old_pass">Current Password : </label>
