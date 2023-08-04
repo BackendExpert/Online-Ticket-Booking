@@ -52,4 +52,4 @@ Route::resource('/Trains', TrainController::class);
 
 Route::get('/ViewTrain', [ViewTrainController::class, 'viewAllTrains'])->name('ViewTrain');
 
-Route::get('/settings', [UsersettingController::class, 'account_settings']);
+Route::get('/Usersettings/.'Auth::user()->'./settings', [UsersettingController::class, 'account_settings']);
