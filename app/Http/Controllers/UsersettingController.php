@@ -10,6 +10,6 @@ class UsersettingController extends Controller
 {
     public function account_settings(String $id){
         $member_setting = Member::find($id);
-        return view('')
+        return view('Usersettings.settings')
     }
 }
