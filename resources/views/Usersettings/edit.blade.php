@@ -12,7 +12,7 @@
         <h4>Change Password</h4>
         <br>
 
-        <form action="{{ return redirect()->back(); }}" method="POST">
+        <form action="{{ $_SERVER["PHP_SELF"] }}" method="POST">
             @csrf
 
             <div class="row">
