@@ -13,7 +13,9 @@
         <br>
 
         <form action="{{ url('Usersettings/'.$member_settings->id.'/edit') }}" method="POST">
+            @csrf
 
+            <div class="row"></div>
         </form>
 
     </div>
