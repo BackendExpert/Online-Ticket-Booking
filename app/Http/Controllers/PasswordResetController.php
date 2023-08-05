@@ -37,7 +37,7 @@ class PasswordResetController extends Controller
     public function show(string $id)
     {
         $member_pass = Member::find($id);
-        return view('password.show')->with('member_pass', $member_pass);
+        return view('/Usersettings'.$id.'settings.password.show')->with('member_pass', $member_pass);
     }
 
     /**
