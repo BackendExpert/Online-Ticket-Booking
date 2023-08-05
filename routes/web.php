@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\PasswordResetController;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\TrainController;
 use Illuminate\Support\Facades\Auth;
@@ -53,3 +54,5 @@ Route::resource('/Trains', TrainController::class);
 Route::get('/ViewTrain', [ViewTrainController::class, 'viewAllTrains'])->name('ViewTrain');
 
 Route::get('/Usersettings/{id}/settings', [UsersettingController::class, 'account_settings']);
+
+Route::resource('/password', PasswordResetController::class);
