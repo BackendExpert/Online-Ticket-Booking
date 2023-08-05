@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Member;
 use Illuminate\Http\Request;
 
 class PasswordResetController extends Controller
@@ -35,7 +36,8 @@ class PasswordResetController extends Controller
      */
     public function show(string $id)
     {
-        //
+        $member_pass = Member::find($id);
+        return view('password.show')->with('member_pass', $member_pass);
     }
 
     /**
