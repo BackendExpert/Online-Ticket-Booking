@@ -44,7 +44,7 @@
         <h3><i class="fas fa-key"></i> Password Reset</h3>
         <hr><br>
 
-        <a href="{{ url('/password/'.Auth::user()->id) }}"><button class="btn btn-danger"><i class="fas fa-key"></i> Password Reset </button></a>
+        <a href="{{ url('Usersettings/'.Auth::user()->id.'/settings/password/'.Auth::user()->id) }}"><button class="btn btn-danger"><i class="fas fa-key"></i> Password Reset </button></a>
 
     </div>
 @endsection
