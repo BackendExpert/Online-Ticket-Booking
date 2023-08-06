@@ -10,5 +10,7 @@
         <hr>
         <a href="{{ url('/Usersettings/'.Auth::user()->id.'/settings'); }}"><button class="btn btn-primary">Back</button></a><br>
         
+        <form action="" method="POST"></form>
+
     </div>
 @endsection
