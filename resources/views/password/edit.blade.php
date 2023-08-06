@@ -39,6 +39,9 @@
                     <input type="password" name="" id="" class="form-control">
                 </div>
             </div>
+            <br>
+
+            <input type="submit" value="Reset Password" class="btn btn-success">
             
         </form>
 
