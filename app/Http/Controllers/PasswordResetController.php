@@ -54,7 +54,7 @@ class PasswordResetController extends Controller
     public function update(Request $request, string $id)
     {
         $request->validate([
-
+            'current_password' => ['']
         ]);
     }
 
