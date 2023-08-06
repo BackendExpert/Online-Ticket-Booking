@@ -3,8 +3,8 @@
 @section('content')
     <div class="admin-card">
         <h3><i class="fas fa-key"></i> Password Reset</h3>
-        <hr><br>
-
+        <hr>
+        <a href=""><button class="btn btn-primary">Back</button></a><br>
         
     </div>
 @endsection
