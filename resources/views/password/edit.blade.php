@@ -21,6 +21,24 @@
                     <input type="password" name="" id="" class="form-control">
                 </div>
             </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-2">
+                    <label for="current_pass">Current Password : </label>
+                </div>
+                <div class="col-lg-10">
+                    <input type="password" name="" id="" class="form-control">
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-lg-2">
+                    <label for="current_pass">Current Password : </label>
+                </div>
+                <div class="col-lg-10">
+                    <input type="password" name="" id="" class="form-control">
+                </div>
+            </div>
             
         </form>
 
