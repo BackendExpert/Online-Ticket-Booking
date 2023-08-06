@@ -36,8 +36,7 @@ class PasswordResetController extends Controller
      */
     public function show(string $id)
     {
-        $member_pass = Member::find($id);
-        return view('password.edit')->with('member_pass', $member_pass);
+
     }
 
     /**
@@ -45,7 +44,8 @@ class PasswordResetController extends Controller
      */
     public function edit(string $id)
     {
-        //
+        $member_pass = Member::find($id);
+        return view('password.edit')->with('member_pass', $member_pass);
     }
 
     /**
