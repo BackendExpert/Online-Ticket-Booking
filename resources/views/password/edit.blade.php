@@ -1,6 +1,6 @@
 @extends('layouts.dash')
 
-@if (Auth::user()->id != $member_setting->id)
+@if (Auth::user()->id != $member_pass->id)
 <script>window.location = "/";</script>
 @endif
 
