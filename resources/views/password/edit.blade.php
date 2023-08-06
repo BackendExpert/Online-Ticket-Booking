@@ -12,6 +12,8 @@
         
         <form action="{{ url('password/' .$member_pass->id) }}" method="POST">
             @csrf
+            @method("PATCH")
+
             <br>
             <div class="row">
                 <div class="col-lg-2">
