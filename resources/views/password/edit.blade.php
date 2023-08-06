@@ -13,6 +13,10 @@
         <form action="{{ url('password/' .$member_pass->id) }}" method="POST">
             @csrf
 
+            <div class="row">
+                <div class="col-lg-2"></div>
+                <div class="col-lg-10"></div>
+            </div>
             
         </form>
 
