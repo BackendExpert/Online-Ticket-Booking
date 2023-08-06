@@ -10,7 +10,11 @@
         <hr>
         <a href="{{ url('/Usersettings/'.Auth::user()->id.'/settings'); }}"><button class="btn btn-primary">Back</button></a><br>
         
-        <form action="{{ url('password/' .$member_pass->id) }}" method="POST"></form>
+        <form action="{{ url('password/' .$member_pass->id) }}" method="POST">
+            @csrf
+
+            
+        </form>
 
     </div>
 @endsection
