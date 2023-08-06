@@ -24,7 +24,7 @@
             <br>
             <div class="row">
                 <div class="col-lg-2">
-                    <label for="current_pass">Current Password : </label>
+                    <label for="current_pass">New Password : </label>
                 </div>
                 <div class="col-lg-10">
                     <input type="password" name="" id="" class="form-control">
@@ -33,7 +33,7 @@
             <br>
             <div class="row">
                 <div class="col-lg-2">
-                    <label for="current_pass">Current Password : </label>
+                    <label for="current_pass">Confirm New Password : </label>
                 </div>
                 <div class="col-lg-10">
                     <input type="password" name="" id="" class="form-control">
