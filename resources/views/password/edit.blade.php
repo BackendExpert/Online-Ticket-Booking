@@ -20,7 +20,7 @@
                     <label for="current_pass">Current Password : </label>
                 </div>
                 <div class="col-lg-10">
-                    <input type="password" name="" id="" class="form-control">
+                    <input type="password" name="current_password" id="" class="form-control">
                 </div>
             </div>
             <br>
@@ -29,7 +29,7 @@
                     <label for="current_pass">New Password : </label>
                 </div>
                 <div class="col-lg-10">
-                    <input type="password" name="" id="" class="form-control">
+                    <input type="password" name="new_pass" id="" class="form-control">
                 </div>
             </div>
             <br>
@@ -38,7 +38,7 @@
                     <label for="current_pass">Confirm New Password : </label>
                 </div>
                 <div class="col-lg-10">
-                    <input type="password" name="" id="" class="form-control">
+                    <input type="password" name="cnew_pass" id="" class="form-control">
                 </div>
             </div>
             <br>
