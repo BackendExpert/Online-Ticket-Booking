@@ -21,6 +21,7 @@
                 </div>
                 <div class="col-lg-10">
                     <input type="password" name="current_password" id="" class="form-control">
+                    <input type="hidden" name="user_id" value="{{ Auth::user()->id }}">
                 </div>
             </div>
             <br>
